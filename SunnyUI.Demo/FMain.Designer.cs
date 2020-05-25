@@ -43,12 +43,14 @@
             // 
             this.Aside.ItemHeight = 36;
             this.Aside.LineColor = System.Drawing.Color.Black;
-            this.Aside.Size = new System.Drawing.Size(250, 575);
+            this.Aside.Location = new System.Drawing.Point(1, 145);
+            this.Aside.Size = new System.Drawing.Size(250, 574);
             // 
             // Header
             // 
             this.Header.Controls.Add(this.uiAvatar);
             this.Header.Controls.Add(this.uiLogo1);
+            this.Header.Location = new System.Drawing.Point(1, 35);
             treeNode1.Name = "节点0";
             treeNode1.Text = "控件";
             treeNode2.Name = "节点1";
@@ -60,12 +62,13 @@
             treeNode2,
             treeNode3});
             this.Header.SelectedIndex = 0;
-            this.Header.Size = new System.Drawing.Size(1024, 110);
+            this.Header.Size = new System.Drawing.Size(1022, 110);
             this.Header.MenuItemClick += new Sunny.UI.UINavBar.OnMenuItemClick(this.Header_MenuItemClick);
             // 
             // Main
             // 
-            this.Main.Size = new System.Drawing.Size(774, 575);
+            this.Main.Location = new System.Drawing.Point(251, 145);
+            this.Main.Size = new System.Drawing.Size(772, 574);
             // 
             // uiLogo1
             // 
@@ -83,7 +86,7 @@
             // 
             this.uiAvatar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.uiAvatar.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.uiAvatar.Location = new System.Drawing.Point(943, 25);
+            this.uiAvatar.Location = new System.Drawing.Point(941, 25);
             this.uiAvatar.Name = "uiAvatar";
             this.uiAvatar.Size = new System.Drawing.Size(65, 61);
             this.uiAvatar.TabIndex = 4;
@@ -96,6 +99,7 @@
             this.ClientSize = new System.Drawing.Size(1024, 720);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FMain";
+            this.Padding = new System.Windows.Forms.Padding(1, 35, 1, 1);
             this.Text = "SunnyUI.Net";
             this.Header.ResumeLayout(false);
             this.ResumeLayout(false);

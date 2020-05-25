@@ -242,6 +242,22 @@ namespace Sunny.UI
 
         private Rectangle MinimizeBoxRect;
 
+        private Rectangle ResizerRectNW;
+
+        private Rectangle ResizerRectNE;
+
+        private Rectangle ResizerRectSW;
+
+        private Rectangle ResizerRectSE;
+
+        private Rectangle ResizerRectN;
+
+        private Rectangle ResizerRectS;
+
+        private Rectangle ResizerRectW;
+
+        private Rectangle ResizerRectE;
+
         private int ControlBoxLeft;
 
         private void CalcSystemBoxPos()
@@ -278,6 +294,24 @@ namespace Sunny.UI
             else
             {
                 MaximizeBoxRect = MinimizeBoxRect = ControlBoxRect = new Rectangle(Width + 1, Height + 1, 1, 1);
+            }
+
+            if (FormResizeable)
+            {
+                ResizerRectNW = new Rectangle(0, 0, 2, 2);
+                ResizerRectNE = new Rectangle(Width - 2 - 1, 0, 2, 2);
+                ResizerRectSW = new Rectangle(0, Height - 2 - 1, 2, 2);
+                ResizerRectSE = new Rectangle(Width - 2 - 1, Height - 2 - 1, 2, 2);
+
+                ResizerRectN = new Rectangle(2, 0, Width - 4 - 1, 2);
+                ResizerRectS = new Rectangle(2, Height - 2, Width - 4, 2);
+                ResizerRectW = new Rectangle(0, 2, 2, Height - 4 - 1);
+                ResizerRectE = new Rectangle(Width - 2 - 1, 2, 2, Height - 4 - 1);
+            }
+            else
+            {
+                ResizerRectNW =  ResizerRectNE =  ResizerRectSW =  ResizerRectSE = new Rectangle(Width + 1, Height + 1, 1, 1);
+                ResizerRectN = ResizerRectS = ResizerRectW = ResizerRectW = new Rectangle(Width + 1, Height + 1, 1, 1);
             }
         }
 
@@ -462,6 +496,15 @@ namespace Sunny.UI
             {
                 InControlBox = InMaxBox = InMinBox = false;
             }
+        }
+        private void RedirectMouseMove(object sender, MouseEventArgs e)
+        {
+            Control control = (Control)sender;
+            Point screenPoint = control.PointToScreen(new Point(e.X, e.Y));
+            Point formPoint = PointToClient(screenPoint);
+            MouseEventArgs args = new MouseEventArgs(e.Button, e.Clicks,
+                formPoint.X, formPoint.Y, e.Delta);
+            OnMouseMove(args);
         }
         private int Mx;
         private int My;
@@ -695,7 +738,72 @@ namespace Sunny.UI
                 e.Graphics.DrawString(Text, Font, titleForeColor, 6, (TitleHeight - sf.Height) / 2);
             }
         }
+        private const int
+            HTLEFT = 10,
+            HTRIGHT = 11,
+            HTTOP = 12,
+            HTTOPLEFT = 13,
+            HTTOPRIGHT = 14,
+            HTBOTTOM = 15,
+            HTBOTTOMLEFT = 16,
+            HTBOTTOMRIGHT = 17;
+        protected override void WndProc(ref Message m)
+        {
+            switch (m.Msg)
+            {
+                case 0x84:
+                    {  // Trap WM_NCHITTEST
 
+                        base.WndProc(ref m);
+                        Point pos = new Point(m.LParam.ToInt32());
+                        pos = this.PointToClient(pos);
+                        if (pos.InRect(ResizerRectNW))
+                        {
+                            m.Result = (IntPtr)HTTOPLEFT;
+                            //Cursor = Cursors.SizeNWSE;
+                        }
+                        else if (pos.InRect(ResizerRectSE))
+                        {
+                            m.Result = (IntPtr)HTBOTTOMRIGHT;
+                            //Cursor = Cursors.SizeNWSE;
+                        }
+                        else if (pos.InRect(ResizerRectNE))
+                        {
+                            m.Result = (IntPtr)HTTOPRIGHT;
+                            //Cursor = Cursors.SizeNESW;
+                        }
+                        else if (pos.InRect(ResizerRectSW))
+                        {
+                            m.Result = (IntPtr)HTBOTTOMLEFT;
+                            //Cursor = Cursors.SizeNESW;
+                        }
+                        else if (pos.InRect(ResizerRectN))
+                        {
+                            m.Result = (IntPtr)HTTOP;
+                            //Cursor = Cursors.SizeNS;
+                        }
+                        else if (pos.InRect(ResizerRectS))
+                        {
+                            m.Result = (IntPtr)HTBOTTOM;
+                            //Cursor = Cursors.SizeNS;
+                        }
+                        else if (pos.InRect(ResizerRectW))
+                        {
+                            m.Result = (IntPtr)HTLEFT;
+                            //Cursor = Cursors.SizeWE;
+                        }
+                        else if (pos.InRect(ResizerRectE))
+                        {
+                            m.Result = (IntPtr)HTRIGHT;
+                            //Cursor = Cursors.SizeWE;
+                        }
+
+                    }
+                    break;
+                default:
+                    base.WndProc(ref m);break;
+            }
+        }
         protected override void OnTextChanged(EventArgs e)
         {
             base.OnTextChanged(e);
@@ -900,15 +1008,6 @@ namespace Sunny.UI
                 }
             }
         }
-
-        //private void ctrlMouseMove(object sender, MouseEventArgs e)
-        //{
-        //    if (e.Button == MouseButtons.Left)
-        //    {
-        //        Left = Fx + (MousePosition.X - Mx);
-        //        Top = Fy + (MousePosition.Y - My);
-        //    }
-        //}
         private void SetRadius()
         {
             if (DesignMode)
