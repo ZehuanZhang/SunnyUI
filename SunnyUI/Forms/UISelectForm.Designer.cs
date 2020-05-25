@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UISelectForm
     {
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label = new Sunny.UI.UILabel();
-            this.ComboBox = new Sunny.UI.UIComboBox();
+            this.label = new SunnyUI.UILabel();
+            this.ComboBox = new SunnyUI.UIComboBox();
             this.SuspendLayout();
             // 
             // pnlBtm
@@ -52,7 +52,7 @@
             // 
             // ComboBox
             // 
-            this.ComboBox.DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
+            this.ComboBox.DropDownStyle = SunnyUI.UIDropDownStyle.DropDownList;
             this.ComboBox.FillColor = System.Drawing.Color.White;
             this.ComboBox.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.ComboBox.Location = new System.Drawing.Point(29, 92);

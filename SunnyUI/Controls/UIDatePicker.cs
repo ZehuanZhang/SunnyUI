@@ -23,7 +23,7 @@ using System;
 using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     [ToolboxItem(true)]
     public sealed partial class UIDatePicker : UIDropControl

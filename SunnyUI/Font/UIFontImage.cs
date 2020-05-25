@@ -31,7 +31,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// ◊÷ÃÂÕº∆¨∞Ô÷˙¿‡
@@ -53,8 +53,8 @@ namespace Sunny.UI
         /// </summary>
         static FontImageHelper()
         {
-            AwesomeFont = new FontImages(ReadFontFileFromResource("Sunny.UI.Font.FontAwesome.ttf"));
-            ElegantFont = new FontImages(ReadFontFileFromResource("Sunny.UI.Font.ElegantIcons.ttf"));
+            AwesomeFont = new FontImages(ReadFontFileFromResource("SunnyUI.Font.FontAwesome.ttf"));
+            ElegantFont = new FontImages(ReadFontFileFromResource("SunnyUI.Font.ElegantIcons.ttf"));
         }
 
         /// <summary>

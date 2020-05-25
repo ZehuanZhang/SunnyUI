@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UIHeaderMainFrame
     {
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Header = new Sunny.UI.UINavBar();
+            this.Header = new SunnyUI.UINavBar();
             this.SuspendLayout();
             // 
             // Main
@@ -45,7 +45,7 @@
             this.Header.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
             this.Header.Location = new System.Drawing.Point(1, 35);
             this.Header.MenuHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
-            this.Header.MenuStyle = Sunny.UI.UIMenuStyle.White;
+            this.Header.MenuStyle = SunnyUI.UIMenuStyle.White;
             this.Header.Name = "Header";
             this.Header.Size = new System.Drawing.Size(798, 110);
             this.Header.TabIndex = 1;

@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FHeaderAsideMainFooter
     {
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiLogo1 = new Sunny.UI.UILogo();
+            this.uiLogo1 = new SunnyUI.UILogo();
             this.Header.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -37,25 +37,25 @@
             this.Footer.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(178)))), ((int)(((byte)(181)))));
             this.Footer.Location = new System.Drawing.Point(250, 664);
             this.Footer.Size = new System.Drawing.Size(774, 56);
-            this.Footer.Style = Sunny.UI.UIStyle.Custom;
+            this.Footer.Style = SunnyUI.UIStyle.Custom;
             this.Footer.StyleCustomMode = true;
             // 
             // Aside
             // 
             this.Aside.Size = new System.Drawing.Size(250, 575);
-            this.Aside.Style = Sunny.UI.UIStyle.Blue;
-            this.Aside.MenuItemClick += new Sunny.UI.UINavMenu.OnMenuItemClick(this.Aside_MenuItemClick);
+            this.Aside.Style = SunnyUI.UIStyle.Blue;
+            this.Aside.MenuItemClick += new SunnyUI.UINavMenu.OnMenuItemClick(this.Aside_MenuItemClick);
             // 
             // Header
             // 
             this.Header.Controls.Add(this.uiLogo1);
             this.Header.Size = new System.Drawing.Size(1024, 110);
-            this.Header.Style = Sunny.UI.UIStyle.Blue;
+            this.Header.Style = SunnyUI.UIStyle.Blue;
             // 
             // Main
             // 
             this.Main.Size = new System.Drawing.Size(774, 519);
-            this.Main.Style = Sunny.UI.UIStyle.Blue;
+            this.Main.Style = SunnyUI.UIStyle.Blue;
             // 
             // uiLogo1
             // 
@@ -74,7 +74,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1024, 720);
             this.Name = "FHeaderAsideMainFooter";
-            this.Style = Sunny.UI.UIStyle.Blue;
+            this.Style = SunnyUI.UIStyle.Blue;
             this.Text = "FHeaderAsideMainFooter";
             this.Header.ResumeLayout(false);
             this.ResumeLayout(false);

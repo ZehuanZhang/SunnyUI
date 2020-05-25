@@ -25,7 +25,7 @@ using System.Collections.Specialized;
 using System.Management;
 using System.Text;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     #region WMIPath
 

@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FPanel
     {
@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiTitlePanel1 = new Sunny.UI.UITitlePanel();
-            this.uiPanel1 = new Sunny.UI.UIPanel();
-            this.uiGroupBox1 = new Sunny.UI.UIGroupBox();
+            this.uiTitlePanel1 = new SunnyUI.UITitlePanel();
+            this.uiPanel1 = new SunnyUI.UIPanel();
+            this.uiGroupBox1 = new SunnyUI.UIGroupBox();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +50,7 @@
             this.uiTitlePanel1.Name = "uiTitlePanel1";
             this.uiTitlePanel1.Padding = new System.Windows.Forms.Padding(1, 35, 1, 1);
             this.uiTitlePanel1.Size = new System.Drawing.Size(270, 180);
-            this.uiTitlePanel1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiTitlePanel1.Style = SunnyUI.UIStyle.Custom;
             this.uiTitlePanel1.TabIndex = 1;
             this.uiTitlePanel1.Text = "uiTitlePanel1";
             // 

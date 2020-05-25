@@ -21,7 +21,7 @@
 
 using System.ComponentModel;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     public sealed partial class UIStatusForm : UIForm
     {

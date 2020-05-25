@@ -26,7 +26,7 @@ using System.Security.Permissions;
 using System.Windows.Forms;
 using System.Windows.Forms.Design;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     ///   提供设置的编辑器 <see cref="P:System.Windows.Forms.ToolStripStatusLabel.RectSides" /> 属性。

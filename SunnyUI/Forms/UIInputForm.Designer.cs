@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UIInputForm
     {
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label = new Sunny.UI.UILabel();
-            this.edit = new Sunny.UI.UITextBox();
+            this.label = new SunnyUI.UILabel();
+            this.edit = new SunnyUI.UITextBox();
             this.SuspendLayout();
             // 
             // pnlBtm
@@ -60,7 +60,7 @@
             this.edit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edit.Name = "edit";
             this.edit.Padding = new System.Windows.Forms.Padding(5);
-            this.edit.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.edit.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.edit.Size = new System.Drawing.Size(415, 29);
             this.edit.TabIndex = 0;
             // 

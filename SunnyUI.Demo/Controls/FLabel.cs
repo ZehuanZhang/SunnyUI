@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Windows.Forms;
 
-namespace Sunny.UI.Demo
+namespace SunnyUI.Demo
 {
     public partial class FLabel : UITitlePage
     {

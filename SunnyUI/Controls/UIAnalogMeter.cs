@@ -34,7 +34,7 @@ using System.Windows.Forms;
 
 #pragma warning disable 1591
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// Class for the analog meter control

@@ -27,7 +27,7 @@ using System.Drawing;
 using System.Drawing.Design;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 多选框组

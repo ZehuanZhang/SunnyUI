@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UIAsideHeaderMainFrame
     {
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Header = new Sunny.UI.UIPanel();
+            this.Header = new SunnyUI.UIPanel();
             this.SuspendLayout();
             // 
             // Aside
@@ -48,7 +48,7 @@
             this.Header.Location = new System.Drawing.Point(250, 35);
             this.Header.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Header.Name = "Header";
-            this.Header.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.Header.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.Header.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
             this.Header.Size = new System.Drawing.Size(550, 57);
             this.Header.TabIndex = 2;

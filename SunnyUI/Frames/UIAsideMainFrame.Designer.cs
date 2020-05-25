@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UIAsideMainFrame
     {
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Aside = new Sunny.UI.UINavMenu();
+            this.Aside = new SunnyUI.UINavMenu();
             this.SuspendLayout();
             // 
             // Main

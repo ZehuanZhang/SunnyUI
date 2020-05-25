@@ -28,7 +28,7 @@ using System.Text;
 using System.Threading;
 using Timer = System.Windows.Forms.Timer;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 日志级别

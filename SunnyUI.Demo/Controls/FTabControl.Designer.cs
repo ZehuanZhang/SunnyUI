@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FTabControl
     {
@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiTabControl1 = new Sunny.UI.UITabControl();
+            this.uiTabControl1 = new SunnyUI.UITabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.uiLine1 = new Sunny.UI.UILine();
+            this.uiLine1 = new SunnyUI.UILine();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.uiLine2 = new Sunny.UI.UILine();
-            this.uiTabControlMenu1 = new Sunny.UI.UITabControlMenu();
+            this.uiLine2 = new SunnyUI.UILine();
+            this.uiTabControlMenu1 = new SunnyUI.UITabControlMenu();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();

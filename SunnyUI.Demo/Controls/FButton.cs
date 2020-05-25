@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 
-namespace Sunny.UI.Demo
+namespace SunnyUI.Demo
 {
     public partial class FButton : UITitlePage
     {

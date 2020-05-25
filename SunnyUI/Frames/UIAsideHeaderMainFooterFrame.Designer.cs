@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UIAsideHeaderMainFooterFrame
     {
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Footer = new Sunny.UI.UIPanel();
+            this.Footer = new SunnyUI.UIPanel();
             this.SuspendLayout();
             // 
             // Main
@@ -42,7 +42,7 @@
             this.Footer.Location = new System.Drawing.Point(250, 394);
             this.Footer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Footer.Name = "Footer";
-            this.Footer.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.Footer.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.Footer.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
             this.Footer.Size = new System.Drawing.Size(550, 56);
             this.Footer.TabIndex = 3;

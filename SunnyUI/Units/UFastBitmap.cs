@@ -78,7 +78,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// Encapsulates a Bitmap for fast bitmap pixel operations using 32bpp images

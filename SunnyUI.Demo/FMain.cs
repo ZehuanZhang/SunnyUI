@@ -1,7 +1,7 @@
-﻿using Sunny.UI.Demo.Forms;
+﻿using SunnyUI.Demo.Forms;
 using System.Windows.Forms;
 
-namespace Sunny.UI.Demo
+namespace SunnyUI.Demo
 {
     public partial class FMain : UIHeaderAsideMainFrame
     {

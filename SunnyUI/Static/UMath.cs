@@ -25,7 +25,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 数学扩展类

@@ -22,7 +22,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 身份证校验类

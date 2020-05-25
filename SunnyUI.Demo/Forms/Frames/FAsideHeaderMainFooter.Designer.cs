@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FAsideHeaderMainFooter
     {
@@ -35,7 +35,7 @@
             this.Footer.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(178)))), ((int)(((byte)(181)))));
             this.Footer.Location = new System.Drawing.Point(250, 664);
             this.Footer.Size = new System.Drawing.Size(774, 56);
-            this.Footer.Style = Sunny.UI.UIStyle.Custom;
+            this.Footer.Style = SunnyUI.UIStyle.Custom;
             this.Footer.StyleCustomMode = true;
             // 
             // Header
@@ -43,13 +43,13 @@
             this.Header.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(76)))));
             this.Header.ForeColor = System.Drawing.Color.White;
             this.Header.Size = new System.Drawing.Size(774, 57);
-            this.Header.Style = Sunny.UI.UIStyle.Custom;
+            this.Header.Style = SunnyUI.UIStyle.Custom;
             this.Header.StyleCustomMode = true;
             // 
             // Aside
             // 
             this.Aside.Size = new System.Drawing.Size(250, 685);
-            this.Aside.MenuItemClick += new Sunny.UI.UINavMenu.OnMenuItemClick(this.Aside_MenuItemClick);
+            this.Aside.MenuItemClick += new SunnyUI.UINavMenu.OnMenuItemClick(this.Aside_MenuItemClick);
             // 
             // Main
             // 

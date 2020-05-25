@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 菜单主题样色

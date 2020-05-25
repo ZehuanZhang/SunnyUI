@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UITitlePage
     {
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.PageTitle = new Sunny.UI.UITitlePage.UITitle();
-            this.PagePanel = new Sunny.UI.UIPanel();
+            this.PageTitle = new SunnyUI.UITitlePage.UITitle();
+            this.PagePanel = new SunnyUI.UIPanel();
             this.SuspendLayout();
             // 
             // PageTitle
@@ -39,7 +39,7 @@
             this.PageTitle.Location = new System.Drawing.Point(0, 0);
             this.PageTitle.Name = "PageTitle";
             this.PageTitle.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.PageTitle.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.PageTitle.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.PageTitle.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
             this.PageTitle.Size = new System.Drawing.Size(800, 35);
             this.PageTitle.TabIndex = 0;
@@ -53,7 +53,7 @@
             this.PagePanel.Location = new System.Drawing.Point(0, 35);
             this.PagePanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PagePanel.Name = "PagePanel";
-            this.PagePanel.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.PagePanel.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.PagePanel.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
             this.PagePanel.Size = new System.Drawing.Size(800, 415);
             this.PagePanel.TabIndex = 1;

@@ -23,7 +23,7 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     public sealed partial class UIMessageForm : UIForm
     {

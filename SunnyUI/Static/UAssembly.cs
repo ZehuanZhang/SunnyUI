@@ -22,7 +22,7 @@
 using System;
 using System.Reflection;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 反射处理类

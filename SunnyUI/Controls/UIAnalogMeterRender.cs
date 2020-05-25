@@ -33,7 +33,7 @@ using System.Drawing.Drawing2D;
 
 #pragma warning disable 1591
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// Base class for the renderers of the analog meter

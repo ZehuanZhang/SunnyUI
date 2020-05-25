@@ -23,7 +23,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// KeyScope 用于表示一个整数范围。显示为：3..12

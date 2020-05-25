@@ -25,7 +25,7 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// INI 配置文件类

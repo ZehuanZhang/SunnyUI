@@ -19,7 +19,7 @@
  * 2020-01-01: V2.2.0 增加文件说明
 ******************************************************************************/
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     public sealed partial class UIInputForm : UIEditForm
     {

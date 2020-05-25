@@ -25,7 +25,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 配置文件基类

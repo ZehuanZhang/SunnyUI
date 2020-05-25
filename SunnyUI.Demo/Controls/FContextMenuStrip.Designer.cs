@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FContextMenuStrip
     {
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiButton1 = new Sunny.UI.UIButton();
-            this.uiButton2 = new Sunny.UI.UIButton();
-            this.uiLine1 = new Sunny.UI.UILine();
-            this.uiContextMenuStrip1 = new Sunny.UI.UIContextMenuStrip();
+            this.uiButton1 = new SunnyUI.UIButton();
+            this.uiButton2 = new SunnyUI.UIButton();
+            this.uiLine1 = new SunnyUI.UILine();
+            this.uiContextMenuStrip1 = new SunnyUI.UIContextMenuStrip();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 

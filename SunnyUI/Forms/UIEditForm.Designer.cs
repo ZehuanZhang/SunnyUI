@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UIEditForm
     {
@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pnlBtm = new Sunny.UI.UIPanel();
-            this.btnCancel = new Sunny.UI.UISymbolButton();
-            this.btnOK = new Sunny.UI.UISymbolButton();
+            this.pnlBtm = new SunnyUI.UIPanel();
+            this.btnCancel = new SunnyUI.UISymbolButton();
+            this.btnOK = new SunnyUI.UISymbolButton();
             this.pnlBtm.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +44,7 @@
             this.pnlBtm.Location = new System.Drawing.Point(1, 392);
             this.pnlBtm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlBtm.Name = "pnlBtm";
-            this.pnlBtm.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.pnlBtm.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.pnlBtm.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Top;
             this.pnlBtm.Size = new System.Drawing.Size(598, 55);
             this.pnlBtm.TabIndex = 1;

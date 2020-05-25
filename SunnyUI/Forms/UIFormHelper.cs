@@ -23,7 +23,7 @@
 using System.Collections;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     public static class UIMessageDialog
     {

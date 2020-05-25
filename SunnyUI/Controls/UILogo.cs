@@ -26,7 +26,7 @@ using System.Windows.Forms;
 
 #pragma warning disable 1591
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     [ToolboxItem(false)]
     public sealed class UILogo : UIControl

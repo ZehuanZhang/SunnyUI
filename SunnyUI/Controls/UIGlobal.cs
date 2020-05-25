@@ -19,9 +19,9 @@
  * 2020-01-01: V2.2.0 增加文件说明
 ******************************************************************************/
 
-using Sunny.UI.Properties;
+using SunnyUI.Properties;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 全局参数类

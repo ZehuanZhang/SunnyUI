@@ -23,7 +23,7 @@ using System;
 using System.IO.Ports;
 using System.Threading;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 串口数据类型

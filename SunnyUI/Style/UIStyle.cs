@@ -26,7 +26,7 @@ using System.Drawing;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     internal interface IStyleInterface
     {

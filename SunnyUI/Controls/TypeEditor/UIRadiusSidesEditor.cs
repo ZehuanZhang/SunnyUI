@@ -27,7 +27,7 @@ using System.Security.Permissions;
 using System.Windows.Forms;
 using System.Windows.Forms.Design;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 圆角位置

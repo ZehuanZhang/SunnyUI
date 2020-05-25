@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sunny.UI.Demo
+namespace SunnyUI.Demo
 {
     public partial class FAvatar : UITitlePage
     {

@@ -30,7 +30,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 界面控件扩展类

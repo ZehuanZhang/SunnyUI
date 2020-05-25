@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     partial class UITransfer
     {
@@ -30,12 +30,12 @@ namespace Sunny.UI
         /// </summary>
         private void InitializeComponent()
         {
-            this.b1 = new Sunny.UI.UISymbolButton();
-            this.b2 = new Sunny.UI.UISymbolButton();
-            this.b3 = new Sunny.UI.UISymbolButton();
-            this.b4 = new Sunny.UI.UISymbolButton();
-            this.l1 = new Sunny.UI.UIListBox();
-            this.l2 = new Sunny.UI.UIListBox();
+            this.b1 = new SunnyUI.UISymbolButton();
+            this.b2 = new SunnyUI.UISymbolButton();
+            this.b3 = new SunnyUI.UISymbolButton();
+            this.b4 = new SunnyUI.UISymbolButton();
+            this.l1 = new SunnyUI.UIListBox();
+            this.l2 = new SunnyUI.UIListBox();
             this.SuspendLayout();
             // 
             // b1
@@ -145,7 +145,7 @@ namespace Sunny.UI
             this.Margin = new System.Windows.Forms.Padding(7, 9, 7, 9);
             this.Name = "UITransfer";
             this.Padding = new System.Windows.Forms.Padding(1);
-            this.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
             this.Size = new System.Drawing.Size(500, 350);
             this.ResumeLayout(false);

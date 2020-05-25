@@ -29,7 +29,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 字符串扩展类

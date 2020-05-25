@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FCheckBox
     {
@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiCheckBox1 = new Sunny.UI.UICheckBox();
-            this.uiLine1 = new Sunny.UI.UILine();
-            this.uiCheckBox3 = new Sunny.UI.UICheckBox();
-            this.uiCheckBox4 = new Sunny.UI.UICheckBox();
-            this.uiCheckBox2 = new Sunny.UI.UICheckBox();
-            this.uiCheckBoxGroup1 = new Sunny.UI.UICheckBoxGroup();
+            this.uiCheckBox1 = new SunnyUI.UICheckBox();
+            this.uiLine1 = new SunnyUI.UILine();
+            this.uiCheckBox3 = new SunnyUI.UICheckBox();
+            this.uiCheckBox4 = new SunnyUI.UICheckBox();
+            this.uiCheckBox2 = new SunnyUI.UICheckBox();
+            this.uiCheckBoxGroup1 = new SunnyUI.UICheckBoxGroup();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -126,7 +126,7 @@
             this.uiCheckBoxGroup1.Size = new System.Drawing.Size(670, 211);
             this.uiCheckBoxGroup1.TabIndex = 41;
             this.uiCheckBoxGroup1.Text = "UICheckBoxGroup";
-            this.uiCheckBoxGroup1.ValueChanged += new Sunny.UI.UICheckBoxGroup.OnValueChanged(this.uiCheckBoxGroup1_ValueChanged);
+            this.uiCheckBoxGroup1.ValueChanged += new SunnyUI.UICheckBoxGroup.OnValueChanged(this.uiCheckBoxGroup1_ValueChanged);
             // 
             // FCheckBox
             // 

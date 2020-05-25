@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FHeaderMain
     {
@@ -31,7 +31,7 @@
             System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Page1");
             System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Page2");
             System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Page3");
-            this.uiLogo1 = new Sunny.UI.UILogo();
+            this.uiLogo1 = new SunnyUI.UILogo();
             this.Header.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,7 +64,7 @@
             this.uiLogo1.MinimumSize = new System.Drawing.Size(300, 80);
             this.uiLogo1.Name = "uiLogo1";
             this.uiLogo1.Size = new System.Drawing.Size(300, 80);
-            this.uiLogo1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiLogo1.Style = SunnyUI.UIStyle.Custom;
             this.uiLogo1.TabIndex = 0;
             this.uiLogo1.Text = "uiLogo1";
             // 

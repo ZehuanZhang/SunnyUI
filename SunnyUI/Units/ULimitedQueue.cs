@@ -22,7 +22,7 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 表示固定长度的对象的先进先出集合。

@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UIMessageForm
     {
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCancel = new Sunny.UI.UIButton();
-            this.btnOK = new Sunny.UI.UIButton();
+            this.btnCancel = new SunnyUI.UIButton();
+            this.btnOK = new SunnyUI.UIButton();
             this.lbMsg = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
@@ -41,7 +41,7 @@
             this.btnCancel.Location = new System.Drawing.Point(224, 220);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(0);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.btnCancel.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.btnCancel.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top)));
             this.btnCancel.Size = new System.Drawing.Size(224, 48);
             this.btnCancel.TabIndex = 6;
@@ -59,7 +59,7 @@
             this.btnOK.Location = new System.Drawing.Point(2, 220);
             this.btnOK.Margin = new System.Windows.Forms.Padding(0);
             this.btnOK.Name = "btnOK";
-            this.btnOK.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.btnOK.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.btnOK.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right)));
             this.btnOK.Size = new System.Drawing.Size(223, 48);
             this.btnOK.TabIndex = 5;

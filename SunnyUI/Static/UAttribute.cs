@@ -26,7 +26,7 @@ using System.Linq;
 using System.Reflection;
 using System.Xml.Serialization;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 属性扩展类

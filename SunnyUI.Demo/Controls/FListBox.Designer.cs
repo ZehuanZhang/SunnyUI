@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FListBox
     {
@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiImageListBox1 = new Sunny.UI.UIImageListBox();
-            this.uiLine1 = new Sunny.UI.UILine();
-            this.uiLine2 = new Sunny.UI.UILine();
-            this.uiListBox1 = new Sunny.UI.UIListBox();
-            this.uiCheckBox1 = new Sunny.UI.UICheckBox();
+            this.uiImageListBox1 = new SunnyUI.UIImageListBox();
+            this.uiLine1 = new SunnyUI.UILine();
+            this.uiLine2 = new SunnyUI.UILine();
+            this.uiListBox1 = new SunnyUI.UIListBox();
+            this.uiCheckBox1 = new SunnyUI.UICheckBox();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -125,7 +125,7 @@
             this.uiCheckBox1.Size = new System.Drawing.Size(266, 35);
             this.uiCheckBox1.TabIndex = 22;
             this.uiCheckBox1.Text = "ShowDescription";
-            this.uiCheckBox1.ValueChanged += new Sunny.UI.UICheckBox.OnValueChanged(this.uiCheckBox1_ValueChanged);
+            this.uiCheckBox1.ValueChanged += new SunnyUI.UICheckBox.OnValueChanged(this.uiCheckBox1_ValueChanged);
             // 
             // FListBox
             // 

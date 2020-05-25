@@ -23,7 +23,7 @@
 using System;
 using System.ComponentModel;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     [DefaultEvent("ValueChanged")]
     [DefaultProperty("Value")]

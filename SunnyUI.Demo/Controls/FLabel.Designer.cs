@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FLabel
     {
@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiLabel1 = new Sunny.UI.UILabel();
-            this.uiLinkLabel1 = new Sunny.UI.UILinkLabel();
-            this.uiLine1 = new Sunny.UI.UILine();
-            this.uiLine2 = new Sunny.UI.UILine();
-            this.uiLine3 = new Sunny.UI.UILine();
-            this.uiSymbolLabel1 = new Sunny.UI.UISymbolLabel();
-            this.uiSymbolLabel2 = new Sunny.UI.UISymbolLabel();
+            this.uiLabel1 = new SunnyUI.UILabel();
+            this.uiLinkLabel1 = new SunnyUI.UILinkLabel();
+            this.uiLine1 = new SunnyUI.UILine();
+            this.uiLine2 = new SunnyUI.UILine();
+            this.uiLine3 = new SunnyUI.UILine();
+            this.uiSymbolLabel1 = new SunnyUI.UISymbolLabel();
+            this.uiSymbolLabel2 = new SunnyUI.UISymbolLabel();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,7 +70,7 @@
             this.uiLinkLabel1.Location = new System.Drawing.Point(42, 127);
             this.uiLinkLabel1.Name = "uiLinkLabel1";
             this.uiLinkLabel1.Size = new System.Drawing.Size(146, 21);
-            this.uiLinkLabel1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiLinkLabel1.Style = SunnyUI.UIStyle.Custom;
             this.uiLinkLabel1.TabIndex = 1;
             this.uiLinkLabel1.TabStop = true;
             this.uiLinkLabel1.Text = "www.SunnyUI.net";

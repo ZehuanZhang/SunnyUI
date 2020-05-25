@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UIIntegerUpDown
     {
@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnDec = new Sunny.UI.UISymbolButton();
-            this.btnAdd = new Sunny.UI.UISymbolButton();
-            this.pnlValue = new Sunny.UI.UIPanel();
+            this.btnDec = new SunnyUI.UISymbolButton();
+            this.btnAdd = new SunnyUI.UISymbolButton();
+            this.pnlValue = new SunnyUI.UIPanel();
             this.SuspendLayout();
             // 
             // btnDec
@@ -51,13 +51,13 @@
             this.btnDec.Margin = new System.Windows.Forms.Padding(0);
             this.btnDec.Name = "btnDec";
             this.btnDec.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
-            this.btnDec.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
+            this.btnDec.RadiusSides = ((SunnyUI.UICornerRadiusSides)((SunnyUI.UICornerRadiusSides.LeftTop | SunnyUI.UICornerRadiusSides.LeftBottom)));
             this.btnDec.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
             this.btnDec.RectDisableColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(178)))), ((int)(((byte)(181)))));
             this.btnDec.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(168)))), ((int)(((byte)(255)))));
             this.btnDec.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(131)))), ((int)(((byte)(229)))));
             this.btnDec.Size = new System.Drawing.Size(29, 29);
-            this.btnDec.Style = Sunny.UI.UIStyle.Blue;
+            this.btnDec.Style = SunnyUI.UIStyle.Blue;
             this.btnDec.Symbol = 61544;
             this.btnDec.TabIndex = 0;
             this.btnDec.Text = null;
@@ -83,13 +83,13 @@
             this.btnAdd.Margin = new System.Windows.Forms.Padding(0);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
-            this.btnAdd.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.RightTop | Sunny.UI.UICornerRadiusSides.RightBottom)));
+            this.btnAdd.RadiusSides = ((SunnyUI.UICornerRadiusSides)((SunnyUI.UICornerRadiusSides.RightTop | SunnyUI.UICornerRadiusSides.RightBottom)));
             this.btnAdd.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
             this.btnAdd.RectDisableColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(178)))), ((int)(((byte)(181)))));
             this.btnAdd.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(168)))), ((int)(((byte)(255)))));
             this.btnAdd.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(131)))), ((int)(((byte)(229)))));
             this.btnAdd.Size = new System.Drawing.Size(29, 29);
-            this.btnAdd.Style = Sunny.UI.UIStyle.Blue;
+            this.btnAdd.Style = SunnyUI.UIStyle.Blue;
             this.btnAdd.Symbol = 61543;
             this.btnAdd.TabIndex = 1;
             this.btnAdd.Text = null;
@@ -113,7 +113,7 @@
             this.pnlValue.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.pnlValue.RadiusSides = UICornerRadiusSides.None;
             this.pnlValue.Size = new System.Drawing.Size(58, 29);
-            this.pnlValue.Style = Sunny.UI.UIStyle.Blue;
+            this.pnlValue.Style = SunnyUI.UIStyle.Blue;
             this.pnlValue.TabIndex = 2;
             this.pnlValue.Text = "0";
             // 

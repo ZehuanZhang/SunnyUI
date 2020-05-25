@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FOther
     {
@@ -29,28 +29,28 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.uiLight1 = new Sunny.UI.UILight();
-            this.uiLine2 = new Sunny.UI.UILine();
-            this.uiLight2 = new Sunny.UI.UILight();
-            this.uiLight3 = new Sunny.UI.UILight();
-            this.uiProcessBar1 = new Sunny.UI.UIProcessBar();
-            this.uiLine3 = new Sunny.UI.UILine();
-            this.uiProgressIndicator1 = new Sunny.UI.UIProgressIndicator();
-            this.uiLine4 = new Sunny.UI.UILine();
-            this.uiTrackBar1 = new Sunny.UI.UITrackBar();
-            this.uiLine5 = new Sunny.UI.UILine();
+            this.uiLight1 = new SunnyUI.UILight();
+            this.uiLine2 = new SunnyUI.UILine();
+            this.uiLight2 = new SunnyUI.UILight();
+            this.uiLight3 = new SunnyUI.UILight();
+            this.uiProcessBar1 = new SunnyUI.UIProcessBar();
+            this.uiLine3 = new SunnyUI.UILine();
+            this.uiProgressIndicator1 = new SunnyUI.UIProgressIndicator();
+            this.uiLine4 = new SunnyUI.UILine();
+            this.uiTrackBar1 = new SunnyUI.UITrackBar();
+            this.uiLine5 = new SunnyUI.UILine();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.uiScrollBar1 = new Sunny.UI.UIScrollBar();
-            this.uiLight4 = new Sunny.UI.UILight();
-            this.uiLedBulb1 = new Sunny.UI.UILedBulb();
-            this.uiLine8 = new Sunny.UI.UILine();
-            this.uiLedBulb2 = new Sunny.UI.UILedBulb();
-            this.uiLedBulb3 = new Sunny.UI.UILedBulb();
-            this.uiLedBulb4 = new Sunny.UI.UILedBulb();
-            this.uiLine1 = new Sunny.UI.UILine();
-            this.uiScrollBar2 = new Sunny.UI.UIScrollBar();
-            this.uiScrollBar3 = new Sunny.UI.UIScrollBar();
-            this.uiScrollBar4 = new Sunny.UI.UIScrollBar();
+            this.uiScrollBar1 = new SunnyUI.UIScrollBar();
+            this.uiLight4 = new SunnyUI.UILight();
+            this.uiLedBulb1 = new SunnyUI.UILedBulb();
+            this.uiLine8 = new SunnyUI.UILine();
+            this.uiLedBulb2 = new SunnyUI.UILedBulb();
+            this.uiLedBulb3 = new SunnyUI.UILedBulb();
+            this.uiLedBulb4 = new SunnyUI.UILedBulb();
+            this.uiLine1 = new SunnyUI.UILine();
+            this.uiScrollBar2 = new SunnyUI.UIScrollBar();
+            this.uiScrollBar3 = new SunnyUI.UIScrollBar();
+            this.uiScrollBar4 = new SunnyUI.UIScrollBar();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,7 +109,7 @@
             this.uiLight2.Name = "uiLight2";
             this.uiLight2.Radius = 35;
             this.uiLight2.Size = new System.Drawing.Size(35, 35);
-            this.uiLight2.State = Sunny.UI.UILightState.Off;
+            this.uiLight2.State = SunnyUI.UILightState.Off;
             this.uiLight2.TabIndex = 22;
             this.uiLight2.Text = "uiLight2";
             // 
@@ -121,7 +121,7 @@
             this.uiLight3.Name = "uiLight3";
             this.uiLight3.Radius = 35;
             this.uiLight3.Size = new System.Drawing.Size(35, 35);
-            this.uiLight3.State = Sunny.UI.UILightState.Blink;
+            this.uiLight3.State = SunnyUI.UILightState.Blink;
             this.uiLight3.TabIndex = 23;
             this.uiLight3.Text = "uiLight3";
             // 
@@ -173,7 +173,7 @@
             this.uiTrackBar1.Location = new System.Drawing.Point(381, 136);
             this.uiTrackBar1.Name = "uiTrackBar1";
             this.uiTrackBar1.Size = new System.Drawing.Size(158, 29);
-            this.uiTrackBar1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiTrackBar1.Style = SunnyUI.UIStyle.Custom;
             this.uiTrackBar1.TabIndex = 30;
             this.uiTrackBar1.Text = "uiTrackBar1";
             // 
@@ -282,7 +282,7 @@
             this.uiScrollBar2.Name = "uiScrollBar2";
             this.uiScrollBar2.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.uiScrollBar2.Size = new System.Drawing.Size(23, 163);
-            this.uiScrollBar2.Style = Sunny.UI.UIStyle.Green;
+            this.uiScrollBar2.Style = SunnyUI.UIStyle.Green;
             this.uiScrollBar2.StyleCustomMode = true;
             this.uiScrollBar2.TabIndex = 43;
             this.uiScrollBar2.Text = "uiScrollBar2";
@@ -297,7 +297,7 @@
             this.uiScrollBar3.Name = "uiScrollBar3";
             this.uiScrollBar3.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(137)))), ((int)(((byte)(43)))));
             this.uiScrollBar3.Size = new System.Drawing.Size(23, 163);
-            this.uiScrollBar3.Style = Sunny.UI.UIStyle.Orange;
+            this.uiScrollBar3.Style = SunnyUI.UIStyle.Orange;
             this.uiScrollBar3.StyleCustomMode = true;
             this.uiScrollBar3.TabIndex = 44;
             this.uiScrollBar3.Text = "uiScrollBar3";
@@ -312,7 +312,7 @@
             this.uiScrollBar4.Name = "uiScrollBar4";
             this.uiScrollBar4.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
             this.uiScrollBar4.Size = new System.Drawing.Size(23, 163);
-            this.uiScrollBar4.Style = Sunny.UI.UIStyle.Red;
+            this.uiScrollBar4.Style = SunnyUI.UIStyle.Red;
             this.uiScrollBar4.StyleCustomMode = true;
             this.uiScrollBar4.TabIndex = 45;
             this.uiScrollBar4.Text = "uiScrollBar4";

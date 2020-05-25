@@ -22,7 +22,7 @@
 using System.ComponentModel;
 using System.Drawing;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     public partial class UITitlePage : UIPage
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Sunny.UI.Demo
+namespace SunnyUI.Demo
 {
     public partial class FDialogs : UITitlePage
     {

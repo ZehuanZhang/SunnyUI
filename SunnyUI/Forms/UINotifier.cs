@@ -36,7 +36,7 @@ using System.Windows.Forms;
 
 #pragma warning disable 1591
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     public partial class UINotifier : Form
     {

@@ -26,7 +26,7 @@ using System.Runtime.InteropServices;
 using System.Security;
 using System.Security.Permissions;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// Wav声音播放辅助类

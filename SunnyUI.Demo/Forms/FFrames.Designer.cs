@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FFrames
     {
@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiLine1 = new Sunny.UI.UILine();
-            this.btnAM = new Sunny.UI.UIImageButton();
-            this.btnAHMF = new Sunny.UI.UIImageButton();
-            this.btnHAMF = new Sunny.UI.UIImageButton();
-            this.btnHAM = new Sunny.UI.UIImageButton();
-            this.btnAHM = new Sunny.UI.UIImageButton();
-            this.btnHMF = new Sunny.UI.UIImageButton();
-            this.btnHM = new Sunny.UI.UIImageButton();
+            this.uiLine1 = new SunnyUI.UILine();
+            this.btnAM = new SunnyUI.UIImageButton();
+            this.btnAHMF = new SunnyUI.UIImageButton();
+            this.btnHAMF = new SunnyUI.UIImageButton();
+            this.btnHAM = new SunnyUI.UIImageButton();
+            this.btnAHM = new SunnyUI.UIImageButton();
+            this.btnHMF = new SunnyUI.UIImageButton();
+            this.btnHM = new SunnyUI.UIImageButton();
             this.PagePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnAM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAHMF)).BeginInit();
@@ -57,7 +57,7 @@
             this.PagePanel.Controls.Add(this.btnHMF);
             this.PagePanel.Controls.Add(this.btnHM);
             this.PagePanel.Size = new System.Drawing.Size(892, 592);
-            this.PagePanel.Style = Sunny.UI.UIStyle.Blue;
+            this.PagePanel.Style = SunnyUI.UIStyle.Blue;
             // 
             // uiLine1
             // 
@@ -73,8 +73,8 @@
             // btnAM
             // 
             this.btnAM.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAM.Image = global::Sunny.UI.Demo.Properties.Resources.AM;
-            this.btnAM.ImageHover = global::Sunny.UI.Demo.Properties.Resources.AM1;
+            this.btnAM.Image = global::SunnyUI.Demo.Properties.Resources.AM;
+            this.btnAM.ImageHover = global::SunnyUI.Demo.Properties.Resources.AM1;
             this.btnAM.Location = new System.Drawing.Point(30, 381);
             this.btnAM.Name = "btnAM";
             this.btnAM.Size = new System.Drawing.Size(160, 120);
@@ -87,8 +87,8 @@
             // btnAHMF
             // 
             this.btnAHMF.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAHMF.Image = global::Sunny.UI.Demo.Properties.Resources.AHMF;
-            this.btnAHMF.ImageHover = global::Sunny.UI.Demo.Properties.Resources.AHMF1;
+            this.btnAHMF.Image = global::SunnyUI.Demo.Properties.Resources.AHMF;
+            this.btnAHMF.ImageHover = global::SunnyUI.Demo.Properties.Resources.AHMF1;
             this.btnAHMF.Location = new System.Drawing.Point(430, 381);
             this.btnAHMF.Name = "btnAHMF";
             this.btnAHMF.Size = new System.Drawing.Size(160, 120);
@@ -101,8 +101,8 @@
             // btnHAMF
             // 
             this.btnHAMF.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHAMF.Image = global::Sunny.UI.Demo.Properties.Resources.HAMF;
-            this.btnHAMF.ImageHover = global::Sunny.UI.Demo.Properties.Resources.HAMF1;
+            this.btnHAMF.Image = global::SunnyUI.Demo.Properties.Resources.HAMF;
+            this.btnHAMF.ImageHover = global::SunnyUI.Demo.Properties.Resources.HAMF1;
             this.btnHAMF.Location = new System.Drawing.Point(230, 221);
             this.btnHAMF.Name = "btnHAMF";
             this.btnHAMF.Size = new System.Drawing.Size(160, 120);
@@ -115,8 +115,8 @@
             // btnHAM
             // 
             this.btnHAM.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHAM.Image = global::Sunny.UI.Demo.Properties.Resources.HAM;
-            this.btnHAM.ImageHover = global::Sunny.UI.Demo.Properties.Resources.HAM1;
+            this.btnHAM.Image = global::SunnyUI.Demo.Properties.Resources.HAM;
+            this.btnHAM.ImageHover = global::SunnyUI.Demo.Properties.Resources.HAM1;
             this.btnHAM.Location = new System.Drawing.Point(30, 221);
             this.btnHAM.Name = "btnHAM";
             this.btnHAM.Size = new System.Drawing.Size(160, 120);
@@ -129,8 +129,8 @@
             // btnAHM
             // 
             this.btnAHM.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAHM.Image = global::Sunny.UI.Demo.Properties.Resources.AHM;
-            this.btnAHM.ImageHover = global::Sunny.UI.Demo.Properties.Resources.AHM1;
+            this.btnAHM.Image = global::SunnyUI.Demo.Properties.Resources.AHM;
+            this.btnAHM.ImageHover = global::SunnyUI.Demo.Properties.Resources.AHM1;
             this.btnAHM.Location = new System.Drawing.Point(230, 381);
             this.btnAHM.Name = "btnAHM";
             this.btnAHM.Size = new System.Drawing.Size(160, 120);
@@ -143,8 +143,8 @@
             // btnHMF
             // 
             this.btnHMF.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHMF.Image = global::Sunny.UI.Demo.Properties.Resources.HMF;
-            this.btnHMF.ImageHover = global::Sunny.UI.Demo.Properties.Resources.HMF1;
+            this.btnHMF.Image = global::SunnyUI.Demo.Properties.Resources.HMF;
+            this.btnHMF.ImageHover = global::SunnyUI.Demo.Properties.Resources.HMF1;
             this.btnHMF.Location = new System.Drawing.Point(230, 61);
             this.btnHMF.Name = "btnHMF";
             this.btnHMF.Size = new System.Drawing.Size(160, 120);
@@ -157,8 +157,8 @@
             // btnHM
             // 
             this.btnHM.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHM.Image = global::Sunny.UI.Demo.Properties.Resources.HM;
-            this.btnHM.ImageHover = global::Sunny.UI.Demo.Properties.Resources.HM1;
+            this.btnHM.Image = global::SunnyUI.Demo.Properties.Resources.HM;
+            this.btnHM.ImageHover = global::SunnyUI.Demo.Properties.Resources.HM1;
             this.btnHM.Location = new System.Drawing.Point(30, 61);
             this.btnHM.Name = "btnHM";
             this.btnHM.Size = new System.Drawing.Size(160, 120);
@@ -175,7 +175,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(892, 627);
             this.Name = "FFrames";
-            this.Style = Sunny.UI.UIStyle.Blue;
+            this.Style = SunnyUI.UIStyle.Blue;
             this.Text = "Frames";
             this.PagePanel.ResumeLayout(false);
             this.PagePanel.PerformLayout();

@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FRadioButton
     {
@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiRadioButton12 = new Sunny.UI.UIRadioButton();
-            this.uiRadioButton13 = new Sunny.UI.UIRadioButton();
-            this.uiLabel3 = new Sunny.UI.UILabel();
-            this.uiRadioButton9 = new Sunny.UI.UIRadioButton();
-            this.uiRadioButton10 = new Sunny.UI.UIRadioButton();
-            this.uiRadioButton11 = new Sunny.UI.UIRadioButton();
-            this.uiLabel2 = new Sunny.UI.UILabel();
-            this.uiRadioButton5 = new Sunny.UI.UIRadioButton();
-            this.uiRadioButton7 = new Sunny.UI.UIRadioButton();
-            this.uiRadioButton8 = new Sunny.UI.UIRadioButton();
-            this.uiLabel1 = new Sunny.UI.UILabel();
-            this.uiRadioButton6 = new Sunny.UI.UIRadioButton();
-            this.uiRadioButton3 = new Sunny.UI.UIRadioButton();
-            this.uiRadioButton4 = new Sunny.UI.UIRadioButton();
-            this.uiLine3 = new Sunny.UI.UILine();
-            this.uiRadioButton2 = new Sunny.UI.UIRadioButton();
-            this.uiRadioButton1 = new Sunny.UI.UIRadioButton();
-            this.uiLine2 = new Sunny.UI.UILine();
-            this.uiRadioButtonGroup1 = new Sunny.UI.UIRadioButtonGroup();
+            this.uiRadioButton12 = new SunnyUI.UIRadioButton();
+            this.uiRadioButton13 = new SunnyUI.UIRadioButton();
+            this.uiLabel3 = new SunnyUI.UILabel();
+            this.uiRadioButton9 = new SunnyUI.UIRadioButton();
+            this.uiRadioButton10 = new SunnyUI.UIRadioButton();
+            this.uiRadioButton11 = new SunnyUI.UIRadioButton();
+            this.uiLabel2 = new SunnyUI.UILabel();
+            this.uiRadioButton5 = new SunnyUI.UIRadioButton();
+            this.uiRadioButton7 = new SunnyUI.UIRadioButton();
+            this.uiRadioButton8 = new SunnyUI.UIRadioButton();
+            this.uiLabel1 = new SunnyUI.UILabel();
+            this.uiRadioButton6 = new SunnyUI.UIRadioButton();
+            this.uiRadioButton3 = new SunnyUI.UIRadioButton();
+            this.uiRadioButton4 = new SunnyUI.UIRadioButton();
+            this.uiLine3 = new SunnyUI.UILine();
+            this.uiRadioButton2 = new SunnyUI.UIRadioButton();
+            this.uiRadioButton1 = new SunnyUI.UIRadioButton();
+            this.uiLine2 = new SunnyUI.UILine();
+            this.uiRadioButtonGroup1 = new SunnyUI.UIRadioButtonGroup();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -310,7 +310,7 @@
             this.uiRadioButtonGroup1.Size = new System.Drawing.Size(670, 173);
             this.uiRadioButtonGroup1.TabIndex = 63;
             this.uiRadioButtonGroup1.Text = "UIRadioButtonGroup";
-            this.uiRadioButtonGroup1.ValueChanged += new Sunny.UI.UIRadioButtonGroup.OnValueChanged(this.uiRadioButtonGroup1_ValueChanged);
+            this.uiRadioButtonGroup1.ValueChanged += new SunnyUI.UIRadioButtonGroup.OnValueChanged(this.uiRadioButtonGroup1_ValueChanged);
             // 
             // FRadioButton
             // 

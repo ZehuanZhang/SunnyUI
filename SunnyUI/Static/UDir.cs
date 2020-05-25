@@ -25,7 +25,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 目录扩展类

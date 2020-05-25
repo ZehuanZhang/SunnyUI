@@ -26,7 +26,7 @@ using System.IO;
 using System.Text;
 using System.Xml;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// XML 配置文件类

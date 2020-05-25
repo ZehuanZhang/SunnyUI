@@ -29,7 +29,7 @@ using System.Drawing.Drawing2D;
 using System.IO;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     [DefaultEvent("ItemClick")]
     public sealed partial class UIImageListBox : UIPanel

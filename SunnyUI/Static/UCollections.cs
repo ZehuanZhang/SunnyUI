@@ -23,7 +23,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// Collections 扩展类

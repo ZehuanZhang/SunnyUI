@@ -22,7 +22,7 @@
 using System;
 using System.Text;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 随机数扩展类

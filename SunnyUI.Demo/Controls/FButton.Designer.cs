@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FButton
     {
@@ -28,58 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiButton1 = new Sunny.UI.UIButton();
-            this.uiButton2 = new Sunny.UI.UIButton();
-            this.uiButton3 = new Sunny.UI.UIButton();
-            this.uiButton4 = new Sunny.UI.UIButton();
-            this.uiButton5 = new Sunny.UI.UIButton();
-            this.uiButton6 = new Sunny.UI.UIButton();
-            this.uiButton7 = new Sunny.UI.UIButton();
-            this.uiButton8 = new Sunny.UI.UIButton();
-            this.uiButton9 = new Sunny.UI.UIButton();
-            this.uiButton10 = new Sunny.UI.UIButton();
-            this.uiButton11 = new Sunny.UI.UIButton();
-            this.uiButton12 = new Sunny.UI.UIButton();
-            this.uiButton13 = new Sunny.UI.UIButton();
-            this.uiButton14 = new Sunny.UI.UIButton();
-            this.uiButton15 = new Sunny.UI.UIButton();
-            this.uiButton16 = new Sunny.UI.UIButton();
-            this.uiButton17 = new Sunny.UI.UIButton();
-            this.uiButton18 = new Sunny.UI.UIButton();
-            this.uiLine1 = new Sunny.UI.UILine();
-            this.uiLine2 = new Sunny.UI.UILine();
-            this.uiSymbolButton1 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton2 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton3 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton4 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton5 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton6 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton7 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton8 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton9 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton10 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton11 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton12 = new Sunny.UI.UISymbolButton();
-            this.uiLine3 = new Sunny.UI.UILine();
-            this.uiSymbolButton13 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton14 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton15 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton16 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton17 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton18 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton19 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton20 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton21 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton22 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton23 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton24 = new Sunny.UI.UISymbolButton();
-            this.uiSwitch1 = new Sunny.UI.UISwitch();
-            this.uiLine4 = new Sunny.UI.UILine();
-            this.uiSwitch2 = new Sunny.UI.UISwitch();
-            this.uiLine5 = new Sunny.UI.UILine();
-            this.uiImageButton1 = new Sunny.UI.UIImageButton();
-            this.uiImageButton2 = new Sunny.UI.UIImageButton();
-            this.uiImageButton3 = new Sunny.UI.UIImageButton();
+            this.uiButton1 = new SunnyUI.UIButton();
+            this.uiButton2 = new SunnyUI.UIButton();
+            this.uiButton3 = new SunnyUI.UIButton();
+            this.uiButton4 = new SunnyUI.UIButton();
+            this.uiButton5 = new SunnyUI.UIButton();
+            this.uiButton6 = new SunnyUI.UIButton();
+            this.uiButton7 = new SunnyUI.UIButton();
+            this.uiButton8 = new SunnyUI.UIButton();
+            this.uiButton9 = new SunnyUI.UIButton();
+            this.uiButton10 = new SunnyUI.UIButton();
+            this.uiButton11 = new SunnyUI.UIButton();
+            this.uiButton12 = new SunnyUI.UIButton();
+            this.uiButton13 = new SunnyUI.UIButton();
+            this.uiButton14 = new SunnyUI.UIButton();
+            this.uiButton15 = new SunnyUI.UIButton();
+            this.uiButton16 = new SunnyUI.UIButton();
+            this.uiButton17 = new SunnyUI.UIButton();
+            this.uiButton18 = new SunnyUI.UIButton();
+            this.uiLine1 = new SunnyUI.UILine();
+            this.uiLine2 = new SunnyUI.UILine();
+            this.uiSymbolButton1 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton2 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton3 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton4 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton5 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton6 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton7 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton8 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton9 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton10 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton11 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton12 = new SunnyUI.UISymbolButton();
+            this.uiLine3 = new SunnyUI.UILine();
+            this.uiSymbolButton13 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton14 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton15 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton16 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton17 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton18 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton19 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton20 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton21 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton22 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton23 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton24 = new SunnyUI.UISymbolButton();
+            this.uiSwitch1 = new SunnyUI.UISwitch();
+            this.uiLine4 = new SunnyUI.UILine();
+            this.uiSwitch2 = new SunnyUI.UISwitch();
+            this.uiLine5 = new SunnyUI.UILine();
+            this.uiImageButton1 = new SunnyUI.UIImageButton();
+            this.uiImageButton2 = new SunnyUI.UIImageButton();
+            this.uiImageButton3 = new SunnyUI.UIImageButton();
             this.PagePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uiImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.uiImageButton2)).BeginInit();
@@ -158,7 +158,7 @@
             this.uiButton1.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(219)))), ((int)(((byte)(227)))));
             this.uiButton1.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(222)))), ((int)(((byte)(255)))));
             this.uiButton1.Size = new System.Drawing.Size(100, 35);
-            this.uiButton1.Style = Sunny.UI.UIStyle.White;
+            this.uiButton1.Style = SunnyUI.UIStyle.White;
             this.uiButton1.StyleCustomMode = true;
             this.uiButton1.TabIndex = 0;
             this.uiButton1.Text = "White";
@@ -187,7 +187,7 @@
             this.uiButton3.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
             this.uiButton3.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.uiButton3.Size = new System.Drawing.Size(100, 35);
-            this.uiButton3.Style = Sunny.UI.UIStyle.Green;
+            this.uiButton3.Style = SunnyUI.UIStyle.Green;
             this.uiButton3.StyleCustomMode = true;
             this.uiButton3.TabIndex = 2;
             this.uiButton3.Text = "Green";
@@ -205,7 +205,7 @@
             this.uiButton4.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
             this.uiButton4.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
             this.uiButton4.Size = new System.Drawing.Size(100, 35);
-            this.uiButton4.Style = Sunny.UI.UIStyle.Red;
+            this.uiButton4.Style = SunnyUI.UIStyle.Red;
             this.uiButton4.StyleCustomMode = true;
             this.uiButton4.TabIndex = 5;
             this.uiButton4.Text = "Red";
@@ -223,7 +223,7 @@
             this.uiButton5.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(174)))), ((int)(((byte)(86)))));
             this.uiButton5.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(137)))), ((int)(((byte)(43)))));
             this.uiButton5.Size = new System.Drawing.Size(100, 35);
-            this.uiButton5.Style = Sunny.UI.UIStyle.Orange;
+            this.uiButton5.Style = SunnyUI.UIStyle.Orange;
             this.uiButton5.StyleCustomMode = true;
             this.uiButton5.TabIndex = 4;
             this.uiButton5.Text = "Orange";
@@ -241,7 +241,7 @@
             this.uiButton6.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(160)))), ((int)(((byte)(165)))));
             this.uiButton6.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(123)))), ((int)(((byte)(129)))));
             this.uiButton6.Size = new System.Drawing.Size(100, 35);
-            this.uiButton6.Style = Sunny.UI.UIStyle.Gray;
+            this.uiButton6.Style = SunnyUI.UIStyle.Gray;
             this.uiButton6.StyleCustomMode = true;
             this.uiButton6.TabIndex = 3;
             this.uiButton6.Text = "Gray";
@@ -260,7 +260,7 @@
             this.uiButton7.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.uiButton7.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
             this.uiButton7.Size = new System.Drawing.Size(100, 35);
-            this.uiButton7.Style = Sunny.UI.UIStyle.LightRed;
+            this.uiButton7.Style = SunnyUI.UIStyle.LightRed;
             this.uiButton7.StyleCustomMode = true;
             this.uiButton7.TabIndex = 11;
             this.uiButton7.Text = "LightRed";
@@ -279,7 +279,7 @@
             this.uiButton8.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(155)))), ((int)(((byte)(40)))));
             this.uiButton8.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(137)))), ((int)(((byte)(43)))));
             this.uiButton8.Size = new System.Drawing.Size(100, 35);
-            this.uiButton8.Style = Sunny.UI.UIStyle.LightOrange;
+            this.uiButton8.Style = SunnyUI.UIStyle.LightOrange;
             this.uiButton8.StyleCustomMode = true;
             this.uiButton8.TabIndex = 10;
             this.uiButton8.Text = "LightOrange";
@@ -298,7 +298,7 @@
             this.uiButton9.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
             this.uiButton9.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(123)))), ((int)(((byte)(129)))));
             this.uiButton9.Size = new System.Drawing.Size(100, 35);
-            this.uiButton9.Style = Sunny.UI.UIStyle.LightGray;
+            this.uiButton9.Style = SunnyUI.UIStyle.LightGray;
             this.uiButton9.StyleCustomMode = true;
             this.uiButton9.TabIndex = 9;
             this.uiButton9.Text = "LightGray";
@@ -317,7 +317,7 @@
             this.uiButton10.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
             this.uiButton10.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.uiButton10.Size = new System.Drawing.Size(100, 35);
-            this.uiButton10.Style = Sunny.UI.UIStyle.LightGreen;
+            this.uiButton10.Style = SunnyUI.UIStyle.LightGreen;
             this.uiButton10.StyleCustomMode = true;
             this.uiButton10.TabIndex = 8;
             this.uiButton10.Text = "LightGreen";
@@ -348,7 +348,7 @@
             this.uiButton12.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(219)))), ((int)(((byte)(227)))));
             this.uiButton12.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(222)))), ((int)(((byte)(255)))));
             this.uiButton12.Size = new System.Drawing.Size(100, 35);
-            this.uiButton12.Style = Sunny.UI.UIStyle.White;
+            this.uiButton12.Style = SunnyUI.UIStyle.White;
             this.uiButton12.StyleCustomMode = true;
             this.uiButton12.TabIndex = 6;
             this.uiButton12.Text = "White";
@@ -367,7 +367,7 @@
             this.uiButton13.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
             this.uiButton13.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
             this.uiButton13.Size = new System.Drawing.Size(100, 35);
-            this.uiButton13.Style = Sunny.UI.UIStyle.Red;
+            this.uiButton13.Style = SunnyUI.UIStyle.Red;
             this.uiButton13.StyleCustomMode = true;
             this.uiButton13.TabIndex = 17;
             this.uiButton13.Text = "Red";
@@ -386,7 +386,7 @@
             this.uiButton14.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(174)))), ((int)(((byte)(86)))));
             this.uiButton14.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(137)))), ((int)(((byte)(43)))));
             this.uiButton14.Size = new System.Drawing.Size(100, 35);
-            this.uiButton14.Style = Sunny.UI.UIStyle.Orange;
+            this.uiButton14.Style = SunnyUI.UIStyle.Orange;
             this.uiButton14.StyleCustomMode = true;
             this.uiButton14.TabIndex = 16;
             this.uiButton14.Text = "Orange";
@@ -405,7 +405,7 @@
             this.uiButton15.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(160)))), ((int)(((byte)(165)))));
             this.uiButton15.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(123)))), ((int)(((byte)(129)))));
             this.uiButton15.Size = new System.Drawing.Size(100, 35);
-            this.uiButton15.Style = Sunny.UI.UIStyle.Gray;
+            this.uiButton15.Style = SunnyUI.UIStyle.Gray;
             this.uiButton15.StyleCustomMode = true;
             this.uiButton15.TabIndex = 15;
             this.uiButton15.Text = "Gray";
@@ -424,7 +424,7 @@
             this.uiButton16.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
             this.uiButton16.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.uiButton16.Size = new System.Drawing.Size(100, 35);
-            this.uiButton16.Style = Sunny.UI.UIStyle.Green;
+            this.uiButton16.Style = SunnyUI.UIStyle.Green;
             this.uiButton16.StyleCustomMode = true;
             this.uiButton16.TabIndex = 14;
             this.uiButton16.Text = "Green";
@@ -500,7 +500,7 @@
             this.uiSymbolButton2.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
             this.uiSymbolButton2.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
             this.uiSymbolButton2.Size = new System.Drawing.Size(100, 35);
-            this.uiSymbolButton2.Style = Sunny.UI.UIStyle.Red;
+            this.uiSymbolButton2.Style = SunnyUI.UIStyle.Red;
             this.uiSymbolButton2.StyleCustomMode = true;
             this.uiSymbolButton2.Symbol = 61453;
             this.uiSymbolButton2.TabIndex = 21;
@@ -520,7 +520,7 @@
             this.uiSymbolButton3.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
             this.uiSymbolButton3.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.uiSymbolButton3.Size = new System.Drawing.Size(100, 35);
-            this.uiSymbolButton3.Style = Sunny.UI.UIStyle.Green;
+            this.uiSymbolButton3.Style = SunnyUI.UIStyle.Green;
             this.uiSymbolButton3.StyleCustomMode = true;
             this.uiSymbolButton3.Symbol = 61530;
             this.uiSymbolButton3.TabIndex = 23;
@@ -553,7 +553,7 @@
             this.uiSymbolButton5.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(174)))), ((int)(((byte)(86)))));
             this.uiSymbolButton5.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(137)))), ((int)(((byte)(43)))));
             this.uiSymbolButton5.Size = new System.Drawing.Size(100, 35);
-            this.uiSymbolButton5.Style = Sunny.UI.UIStyle.Orange;
+            this.uiSymbolButton5.Style = SunnyUI.UIStyle.Orange;
             this.uiSymbolButton5.StyleCustomMode = true;
             this.uiSymbolButton5.Symbol = 61553;
             this.uiSymbolButton5.TabIndex = 24;
@@ -573,7 +573,7 @@
             this.uiSymbolButton6.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
             this.uiSymbolButton6.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
             this.uiSymbolButton6.Size = new System.Drawing.Size(100, 35);
-            this.uiSymbolButton6.Style = Sunny.UI.UIStyle.Red;
+            this.uiSymbolButton6.Style = SunnyUI.UIStyle.Red;
             this.uiSymbolButton6.StyleCustomMode = true;
             this.uiSymbolButton6.Symbol = 61532;
             this.uiSymbolButton6.TabIndex = 25;
@@ -594,7 +594,7 @@
             this.uiSymbolButton7.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
             this.uiSymbolButton7.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
             this.uiSymbolButton7.Size = new System.Drawing.Size(35, 35);
-            this.uiSymbolButton7.Style = Sunny.UI.UIStyle.Red;
+            this.uiSymbolButton7.Style = SunnyUI.UIStyle.Red;
             this.uiSymbolButton7.StyleCustomMode = true;
             this.uiSymbolButton7.Symbol = 61809;
             this.uiSymbolButton7.TabIndex = 31;
@@ -614,7 +614,7 @@
             this.uiSymbolButton8.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(174)))), ((int)(((byte)(86)))));
             this.uiSymbolButton8.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(137)))), ((int)(((byte)(43)))));
             this.uiSymbolButton8.Size = new System.Drawing.Size(35, 35);
-            this.uiSymbolButton8.Style = Sunny.UI.UIStyle.Orange;
+            this.uiSymbolButton8.Style = SunnyUI.UIStyle.Orange;
             this.uiSymbolButton8.StyleCustomMode = true;
             this.uiSymbolButton8.Symbol = 61445;
             this.uiSymbolButton8.TabIndex = 30;
@@ -634,7 +634,7 @@
             this.uiSymbolButton9.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
             this.uiSymbolButton9.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.uiSymbolButton9.Size = new System.Drawing.Size(35, 35);
-            this.uiSymbolButton9.Style = Sunny.UI.UIStyle.Green;
+            this.uiSymbolButton9.Style = SunnyUI.UIStyle.Green;
             this.uiSymbolButton9.StyleCustomMode = true;
             this.uiSymbolButton9.Symbol = 57607;
             this.uiSymbolButton9.TabIndex = 29;
@@ -666,7 +666,7 @@
             this.uiSymbolButton11.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
             this.uiSymbolButton11.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
             this.uiSymbolButton11.Size = new System.Drawing.Size(35, 35);
-            this.uiSymbolButton11.Style = Sunny.UI.UIStyle.Red;
+            this.uiSymbolButton11.Style = SunnyUI.UIStyle.Red;
             this.uiSymbolButton11.StyleCustomMode = true;
             this.uiSymbolButton11.Symbol = 61508;
             this.uiSymbolButton11.TabIndex = 27;
@@ -689,7 +689,7 @@
             this.uiSymbolButton12.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(219)))), ((int)(((byte)(227)))));
             this.uiSymbolButton12.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(222)))), ((int)(((byte)(255)))));
             this.uiSymbolButton12.Size = new System.Drawing.Size(35, 35);
-            this.uiSymbolButton12.Style = Sunny.UI.UIStyle.White;
+            this.uiSymbolButton12.Style = SunnyUI.UIStyle.White;
             this.uiSymbolButton12.StyleCustomMode = true;
             this.uiSymbolButton12.Symbol = 61442;
             this.uiSymbolButton12.TabIndex = 26;
@@ -712,7 +712,7 @@
             this.uiSymbolButton13.Location = new System.Drawing.Point(260, 360);
             this.uiSymbolButton13.Name = "uiSymbolButton13";
             this.uiSymbolButton13.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolButton13.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiSymbolButton13.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.uiSymbolButton13.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.uiSymbolButton13.Size = new System.Drawing.Size(46, 35);
@@ -726,7 +726,7 @@
             this.uiSymbolButton14.Location = new System.Drawing.Point(214, 360);
             this.uiSymbolButton14.Name = "uiSymbolButton14";
             this.uiSymbolButton14.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolButton14.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiSymbolButton14.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.uiSymbolButton14.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.uiSymbolButton14.Size = new System.Drawing.Size(46, 35);
@@ -740,7 +740,7 @@
             this.uiSymbolButton15.Location = new System.Drawing.Point(168, 360);
             this.uiSymbolButton15.Name = "uiSymbolButton15";
             this.uiSymbolButton15.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolButton15.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiSymbolButton15.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.uiSymbolButton15.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.uiSymbolButton15.Size = new System.Drawing.Size(46, 35);
@@ -754,7 +754,7 @@
             this.uiSymbolButton16.Location = new System.Drawing.Point(122, 360);
             this.uiSymbolButton16.Name = "uiSymbolButton16";
             this.uiSymbolButton16.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolButton16.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiSymbolButton16.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.uiSymbolButton16.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.uiSymbolButton16.Size = new System.Drawing.Size(46, 35);
@@ -768,7 +768,7 @@
             this.uiSymbolButton17.Location = new System.Drawing.Point(76, 360);
             this.uiSymbolButton17.Name = "uiSymbolButton17";
             this.uiSymbolButton17.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolButton17.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiSymbolButton17.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.uiSymbolButton17.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.uiSymbolButton17.Size = new System.Drawing.Size(46, 35);
@@ -782,7 +782,7 @@
             this.uiSymbolButton18.Location = new System.Drawing.Point(30, 360);
             this.uiSymbolButton18.Name = "uiSymbolButton18";
             this.uiSymbolButton18.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolButton18.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
+            this.uiSymbolButton18.RadiusSides = ((SunnyUI.UICornerRadiusSides)((SunnyUI.UICornerRadiusSides.LeftTop | SunnyUI.UICornerRadiusSides.LeftBottom)));
             this.uiSymbolButton18.Size = new System.Drawing.Size(46, 35);
             this.uiSymbolButton18.Symbol = 61515;
             this.uiSymbolButton18.TabIndex = 33;
@@ -794,7 +794,7 @@
             this.uiSymbolButton19.Location = new System.Drawing.Point(516, 360);
             this.uiSymbolButton19.Name = "uiSymbolButton19";
             this.uiSymbolButton19.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolButton19.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
+            this.uiSymbolButton19.RadiusSides = ((SunnyUI.UICornerRadiusSides)((SunnyUI.UICornerRadiusSides.LeftTop | SunnyUI.UICornerRadiusSides.LeftBottom)));
             this.uiSymbolButton19.Size = new System.Drawing.Size(46, 35);
             this.uiSymbolButton19.Symbol = 61543;
             this.uiSymbolButton19.TabIndex = 41;
@@ -806,7 +806,7 @@
             this.uiSymbolButton20.Location = new System.Drawing.Point(352, 360);
             this.uiSymbolButton20.Name = "uiSymbolButton20";
             this.uiSymbolButton20.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolButton20.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.RightTop | Sunny.UI.UICornerRadiusSides.RightBottom)));
+            this.uiSymbolButton20.RadiusSides = ((SunnyUI.UICornerRadiusSides)((SunnyUI.UICornerRadiusSides.RightTop | SunnyUI.UICornerRadiusSides.RightBottom)));
             this.uiSymbolButton20.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.uiSymbolButton20.Size = new System.Drawing.Size(46, 35);
@@ -820,7 +820,7 @@
             this.uiSymbolButton21.Location = new System.Drawing.Point(306, 360);
             this.uiSymbolButton21.Name = "uiSymbolButton21";
             this.uiSymbolButton21.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolButton21.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiSymbolButton21.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.uiSymbolButton21.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.uiSymbolButton21.Size = new System.Drawing.Size(46, 35);
@@ -834,7 +834,7 @@
             this.uiSymbolButton22.Location = new System.Drawing.Point(562, 360);
             this.uiSymbolButton22.Name = "uiSymbolButton22";
             this.uiSymbolButton22.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolButton22.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiSymbolButton22.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.uiSymbolButton22.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.uiSymbolButton22.Size = new System.Drawing.Size(46, 35);
@@ -848,7 +848,7 @@
             this.uiSymbolButton23.Location = new System.Drawing.Point(608, 360);
             this.uiSymbolButton23.Name = "uiSymbolButton23";
             this.uiSymbolButton23.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolButton23.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiSymbolButton23.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.uiSymbolButton23.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.uiSymbolButton23.Size = new System.Drawing.Size(46, 35);
@@ -862,7 +862,7 @@
             this.uiSymbolButton24.Location = new System.Drawing.Point(654, 360);
             this.uiSymbolButton24.Name = "uiSymbolButton24";
             this.uiSymbolButton24.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
-            this.uiSymbolButton24.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.RightTop | Sunny.UI.UICornerRadiusSides.RightBottom)));
+            this.uiSymbolButton24.RadiusSides = ((SunnyUI.UICornerRadiusSides)((SunnyUI.UICornerRadiusSides.RightTop | SunnyUI.UICornerRadiusSides.RightBottom)));
             this.uiSymbolButton24.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Top | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.uiSymbolButton24.Size = new System.Drawing.Size(46, 35);
@@ -918,9 +918,9 @@
             // uiImageButton1
             // 
             this.uiImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiImageButton1.Image = global::Sunny.UI.Demo.Properties.Resources.dashboard0;
-            this.uiImageButton1.ImageHover = global::Sunny.UI.Demo.Properties.Resources.dashboard;
-            this.uiImageButton1.ImagePress = global::Sunny.UI.Demo.Properties.Resources.dashboard0;
+            this.uiImageButton1.Image = global::SunnyUI.Demo.Properties.Resources.dashboard0;
+            this.uiImageButton1.ImageHover = global::SunnyUI.Demo.Properties.Resources.dashboard;
+            this.uiImageButton1.ImagePress = global::SunnyUI.Demo.Properties.Resources.dashboard0;
             this.uiImageButton1.Location = new System.Drawing.Point(395, 438);
             this.uiImageButton1.Name = "uiImageButton1";
             this.uiImageButton1.Size = new System.Drawing.Size(92, 35);
@@ -932,9 +932,9 @@
             // uiImageButton2
             // 
             this.uiImageButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiImageButton2.Image = global::Sunny.UI.Demo.Properties.Resources.relationship0;
-            this.uiImageButton2.ImageHover = global::Sunny.UI.Demo.Properties.Resources.relationship;
-            this.uiImageButton2.ImagePress = global::Sunny.UI.Demo.Properties.Resources.relationship0;
+            this.uiImageButton2.Image = global::SunnyUI.Demo.Properties.Resources.relationship0;
+            this.uiImageButton2.ImageHover = global::SunnyUI.Demo.Properties.Resources.relationship;
+            this.uiImageButton2.ImagePress = global::SunnyUI.Demo.Properties.Resources.relationship0;
             this.uiImageButton2.Location = new System.Drawing.Point(495, 438);
             this.uiImageButton2.Name = "uiImageButton2";
             this.uiImageButton2.Size = new System.Drawing.Size(43, 35);
@@ -945,9 +945,9 @@
             // uiImageButton3
             // 
             this.uiImageButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiImageButton3.Image = global::Sunny.UI.Demo.Properties.Resources.save0;
-            this.uiImageButton3.ImageHover = global::Sunny.UI.Demo.Properties.Resources.save;
-            this.uiImageButton3.ImagePress = global::Sunny.UI.Demo.Properties.Resources.save0;
+            this.uiImageButton3.Image = global::SunnyUI.Demo.Properties.Resources.save0;
+            this.uiImageButton3.ImageHover = global::SunnyUI.Demo.Properties.Resources.save;
+            this.uiImageButton3.ImagePress = global::SunnyUI.Demo.Properties.Resources.save0;
             this.uiImageButton3.Location = new System.Drawing.Point(546, 438);
             this.uiImageButton3.Name = "uiImageButton3";
             this.uiImageButton3.Size = new System.Drawing.Size(43, 35);

@@ -22,7 +22,7 @@
 using System;
 using System.Data;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 数据读取扩展类

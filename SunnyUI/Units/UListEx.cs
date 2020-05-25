@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 支持事件的List

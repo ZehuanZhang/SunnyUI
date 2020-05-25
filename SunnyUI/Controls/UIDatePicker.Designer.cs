@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UIDatePicker
     {
@@ -34,7 +34,7 @@
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
+            DropDownStyle = SunnyUI.UIDropDownStyle.DropDownList;
             Name = "UIDatePicker";
             Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
             ButtonClick += new System.EventHandler(UIDatetimePicker_ButtonClick);

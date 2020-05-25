@@ -29,7 +29,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// INI 文件读取基类

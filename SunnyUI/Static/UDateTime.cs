@@ -23,7 +23,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 日期扩展类

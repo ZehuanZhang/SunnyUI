@@ -27,7 +27,7 @@ using System.IO.Compression;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 数组扩展类

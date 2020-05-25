@@ -24,7 +24,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Runtime.InteropServices;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 时间同步类

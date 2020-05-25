@@ -21,7 +21,7 @@
 
 #pragma warning disable 1591
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     public enum ImageFont
     {

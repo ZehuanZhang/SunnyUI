@@ -25,7 +25,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Text;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 7-zip Helper（需要 7z.exe 和 7z.dll）

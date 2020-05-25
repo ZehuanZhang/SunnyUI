@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FAsideHeaderMain
     {
@@ -35,19 +35,19 @@
             this.Header.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(76)))));
             this.Header.ForeColor = System.Drawing.Color.White;
             this.Header.Size = new System.Drawing.Size(774, 57);
-            this.Header.Style = Sunny.UI.UIStyle.Custom;
+            this.Header.Style = SunnyUI.UIStyle.Custom;
             this.Header.StyleCustomMode = true;
             // 
             // Aside
             // 
             this.Aside.Size = new System.Drawing.Size(250, 685);
-            this.Aside.Style = Sunny.UI.UIStyle.Blue;
-            this.Aside.MenuItemClick += new Sunny.UI.UINavMenu.OnMenuItemClick(this.Aside_MenuItemClick);
+            this.Aside.Style = SunnyUI.UIStyle.Blue;
+            this.Aside.MenuItemClick += new SunnyUI.UINavMenu.OnMenuItemClick(this.Aside_MenuItemClick);
             // 
             // Main
             // 
             this.Main.Size = new System.Drawing.Size(774, 628);
-            this.Main.Style = Sunny.UI.UIStyle.Blue;
+            this.Main.Style = SunnyUI.UIStyle.Blue;
             // 
             // FAsideHeaderMain
             // 
@@ -55,7 +55,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1024, 720);
             this.Name = "FAsideHeaderMain";
-            this.Style = Sunny.UI.UIStyle.Blue;
+            this.Style = SunnyUI.UIStyle.Blue;
             this.Text = "FAsideHeaderMain";
             this.ResumeLayout(false);
 

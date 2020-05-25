@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FDialogs
     {
@@ -28,27 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnError = new Sunny.UI.UISymbolButton();
-            this.btnWarn = new Sunny.UI.UISymbolButton();
-            this.btnSuccess = new Sunny.UI.UISymbolButton();
-            this.btnAsk = new Sunny.UI.UISymbolButton();
-            this.btnAuto = new Sunny.UI.UISymbolButton();
-            this.btnStatus2 = new Sunny.UI.UISymbolButton();
-            this.btnInfo = new Sunny.UI.UISymbolButton();
-            this.btnPasswordInput = new Sunny.UI.UISymbolButton();
-            this.btnDoubleInput = new Sunny.UI.UISymbolButton();
-            this.btnIntInput = new Sunny.UI.UISymbolButton();
-            this.btnStringInput = new Sunny.UI.UISymbolButton();
-            this.uiLine1 = new Sunny.UI.UILine();
-            this.uiLine2 = new Sunny.UI.UILine();
-            this.uiLine3 = new Sunny.UI.UILine();
-            this.uiLine4 = new Sunny.UI.UILine();
-            this.uiSymbolButton1 = new Sunny.UI.UISymbolButton();
-            this.uiLine5 = new Sunny.UI.UILine();
-            this.uiSymbolButton2 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton4 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton5 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton6 = new Sunny.UI.UISymbolButton();
+            this.btnError = new SunnyUI.UISymbolButton();
+            this.btnWarn = new SunnyUI.UISymbolButton();
+            this.btnSuccess = new SunnyUI.UISymbolButton();
+            this.btnAsk = new SunnyUI.UISymbolButton();
+            this.btnAuto = new SunnyUI.UISymbolButton();
+            this.btnStatus2 = new SunnyUI.UISymbolButton();
+            this.btnInfo = new SunnyUI.UISymbolButton();
+            this.btnPasswordInput = new SunnyUI.UISymbolButton();
+            this.btnDoubleInput = new SunnyUI.UISymbolButton();
+            this.btnIntInput = new SunnyUI.UISymbolButton();
+            this.btnStringInput = new SunnyUI.UISymbolButton();
+            this.uiLine1 = new SunnyUI.UILine();
+            this.uiLine2 = new SunnyUI.UILine();
+            this.uiLine3 = new SunnyUI.UILine();
+            this.uiLine4 = new SunnyUI.UILine();
+            this.uiSymbolButton1 = new SunnyUI.UISymbolButton();
+            this.uiLine5 = new SunnyUI.UILine();
+            this.uiSymbolButton2 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton4 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton5 = new SunnyUI.UISymbolButton();
+            this.uiSymbolButton6 = new SunnyUI.UISymbolButton();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,7 +91,7 @@
             this.btnError.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
             this.btnError.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
             this.btnError.Size = new System.Drawing.Size(100, 35);
-            this.btnError.Style = Sunny.UI.UIStyle.Red;
+            this.btnError.Style = SunnyUI.UIStyle.Red;
             this.btnError.StyleCustomMode = true;
             this.btnError.Symbol = 61532;
             this.btnError.TabIndex = 29;
@@ -112,7 +112,7 @@
             this.btnWarn.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(174)))), ((int)(((byte)(86)))));
             this.btnWarn.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(137)))), ((int)(((byte)(43)))));
             this.btnWarn.Size = new System.Drawing.Size(100, 35);
-            this.btnWarn.Style = Sunny.UI.UIStyle.Orange;
+            this.btnWarn.Style = SunnyUI.UIStyle.Orange;
             this.btnWarn.StyleCustomMode = true;
             this.btnWarn.Symbol = 61553;
             this.btnWarn.TabIndex = 28;
@@ -133,7 +133,7 @@
             this.btnSuccess.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
             this.btnSuccess.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.btnSuccess.Size = new System.Drawing.Size(100, 35);
-            this.btnSuccess.Style = Sunny.UI.UIStyle.Green;
+            this.btnSuccess.Style = SunnyUI.UIStyle.Green;
             this.btnSuccess.StyleCustomMode = true;
             this.btnSuccess.Symbol = 61528;
             this.btnSuccess.TabIndex = 27;
@@ -194,7 +194,7 @@
             this.btnInfo.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(160)))), ((int)(((byte)(165)))));
             this.btnInfo.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(123)))), ((int)(((byte)(129)))));
             this.btnInfo.Size = new System.Drawing.Size(100, 35);
-            this.btnInfo.Style = Sunny.UI.UIStyle.Gray;
+            this.btnInfo.Style = SunnyUI.UIStyle.Gray;
             this.btnInfo.StyleCustomMode = true;
             this.btnInfo.Symbol = 61530;
             this.btnInfo.TabIndex = 37;
@@ -349,7 +349,7 @@
             this.uiSymbolButton4.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(127)))), ((int)(((byte)(128)))));
             this.uiSymbolButton4.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(87)))), ((int)(((byte)(89)))));
             this.uiSymbolButton4.Size = new System.Drawing.Size(100, 35);
-            this.uiSymbolButton4.Style = Sunny.UI.UIStyle.Red;
+            this.uiSymbolButton4.Style = SunnyUI.UIStyle.Red;
             this.uiSymbolButton4.StyleCustomMode = true;
             this.uiSymbolButton4.Symbol = 61532;
             this.uiSymbolButton4.TabIndex = 55;
@@ -370,7 +370,7 @@
             this.uiSymbolButton5.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(174)))), ((int)(((byte)(86)))));
             this.uiSymbolButton5.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(137)))), ((int)(((byte)(43)))));
             this.uiSymbolButton5.Size = new System.Drawing.Size(100, 35);
-            this.uiSymbolButton5.Style = Sunny.UI.UIStyle.Orange;
+            this.uiSymbolButton5.Style = SunnyUI.UIStyle.Orange;
             this.uiSymbolButton5.StyleCustomMode = true;
             this.uiSymbolButton5.Symbol = 61553;
             this.uiSymbolButton5.TabIndex = 54;
@@ -391,7 +391,7 @@
             this.uiSymbolButton6.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(202)))), ((int)(((byte)(81)))));
             this.uiSymbolButton6.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(168)))), ((int)(((byte)(35)))));
             this.uiSymbolButton6.Size = new System.Drawing.Size(100, 35);
-            this.uiSymbolButton6.Style = Sunny.UI.UIStyle.Green;
+            this.uiSymbolButton6.Style = SunnyUI.UIStyle.Green;
             this.uiSymbolButton6.StyleCustomMode = true;
             this.uiSymbolButton6.Symbol = 61528;
             this.uiSymbolButton6.TabIndex = 53;

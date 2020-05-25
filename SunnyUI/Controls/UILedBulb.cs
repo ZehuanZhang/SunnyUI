@@ -26,7 +26,7 @@ using System.Windows.Forms;
 
 #pragma warning disable 1591
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// The LEDBulb is a .Net control for Windows Forms that emulates an

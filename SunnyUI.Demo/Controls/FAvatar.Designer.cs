@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FAvatar
     {
@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiAvatar1 = new Sunny.UI.UIAvatar();
-            this.uiAvatar2 = new Sunny.UI.UIAvatar();
-            this.uiAvatar3 = new Sunny.UI.UIAvatar();
-            this.uiAvatar4 = new Sunny.UI.UIAvatar();
-            this.uiLabel1 = new Sunny.UI.UILabel();
-            this.uiLabel2 = new Sunny.UI.UILabel();
-            this.uiLabel3 = new Sunny.UI.UILabel();
-            this.uiLabel4 = new Sunny.UI.UILabel();
-            this.uiContextMenuStrip1 = new Sunny.UI.UIContextMenuStrip();
+            this.uiAvatar1 = new SunnyUI.UIAvatar();
+            this.uiAvatar2 = new SunnyUI.UIAvatar();
+            this.uiAvatar3 = new SunnyUI.UIAvatar();
+            this.uiAvatar4 = new SunnyUI.UIAvatar();
+            this.uiLabel1 = new SunnyUI.UILabel();
+            this.uiLabel2 = new SunnyUI.UILabel();
+            this.uiLabel3 = new SunnyUI.UILabel();
+            this.uiLabel4 = new SunnyUI.UILabel();
+            this.uiContextMenuStrip1 = new SunnyUI.UIContextMenuStrip();
             this.设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.更改密码ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.uiLine1 = new Sunny.UI.UILine();
+            this.uiLine1 = new SunnyUI.UILine();
             this.PagePanel.SuspendLayout();
             this.uiContextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -71,8 +71,8 @@
             // uiAvatar2
             // 
             this.uiAvatar2.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.uiAvatar2.Icon = Sunny.UI.UIAvatar.UIIcon.Image;
-            this.uiAvatar2.Image = global::Sunny.UI.Demo.Properties.Resources.SunnyUISmall;
+            this.uiAvatar2.Icon = SunnyUI.UIAvatar.UIIcon.Image;
+            this.uiAvatar2.Image = global::SunnyUI.Demo.Properties.Resources.SunnyUISmall;
             this.uiAvatar2.Location = new System.Drawing.Point(30, 50);
             this.uiAvatar2.Name = "uiAvatar2";
             this.uiAvatar2.Size = new System.Drawing.Size(60, 60);
@@ -83,11 +83,11 @@
             // 
             this.uiAvatar3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.uiAvatar3.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.uiAvatar3.Icon = Sunny.UI.UIAvatar.UIIcon.Text;
+            this.uiAvatar3.Icon = SunnyUI.UIAvatar.UIIcon.Text;
             this.uiAvatar3.Location = new System.Drawing.Point(174, 50);
             this.uiAvatar3.Name = "uiAvatar3";
             this.uiAvatar3.Size = new System.Drawing.Size(60, 60);
-            this.uiAvatar3.Style = Sunny.UI.UIStyle.Custom;
+            this.uiAvatar3.Style = SunnyUI.UIStyle.Custom;
             this.uiAvatar3.TabIndex = 2;
             this.uiAvatar3.Text = "Avatar";
             // 
@@ -98,7 +98,7 @@
             this.uiAvatar4.Location = new System.Drawing.Point(362, 50);
             this.uiAvatar4.Name = "uiAvatar4";
             this.uiAvatar4.Size = new System.Drawing.Size(60, 60);
-            this.uiAvatar4.Style = Sunny.UI.UIStyle.Custom;
+            this.uiAvatar4.Style = SunnyUI.UIStyle.Custom;
             this.uiAvatar4.Symbol = 61715;
             this.uiAvatar4.TabIndex = 3;
             this.uiAvatar4.Text = "uiAvatar4";

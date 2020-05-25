@@ -24,7 +24,7 @@ using System.ComponentModel;
 using System.Drawing.Design;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 穿梭框

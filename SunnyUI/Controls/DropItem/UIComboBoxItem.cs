@@ -22,7 +22,7 @@
 using System;
 using System.Drawing;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 组合框弹出窗体

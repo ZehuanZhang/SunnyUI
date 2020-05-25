@@ -24,7 +24,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 字符串列表

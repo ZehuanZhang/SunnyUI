@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo.Forms
+﻿namespace SunnyUI.Demo.Forms
 {
     partial class FEditor
     {
@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnEdit = new Sunny.UI.UISymbolButton();
-            this.uiLine1 = new Sunny.UI.UILine();
-            this.btnAdd = new Sunny.UI.UISymbolButton();
+            this.btnEdit = new SunnyUI.UISymbolButton();
+            this.uiLine1 = new SunnyUI.UILine();
+            this.btnAdd = new SunnyUI.UISymbolButton();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 

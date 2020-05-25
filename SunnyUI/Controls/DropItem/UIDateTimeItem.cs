@@ -21,7 +21,7 @@
 
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 日期选择框弹出窗体

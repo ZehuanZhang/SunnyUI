@@ -8,7 +8,7 @@
     <ProjectGuid>{AB1CB247-E20B-4CBE-B269-570ADDD96C53}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sunny.UI</RootNamespace>
+    <RootNamespace>SunnyUI</RootNamespace>
     <AssemblyName>SunnyUI</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -51,6 +51,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="APIs\Model\Enums.cs" />
+    <Compile Include="APIs\Model\RoundRectangle.cs" />
+    <Compile Include="APIs\Model\Structs.CS" />
+    <Compile Include="APIs\Win32\Enums\APIsEnums.cs" />
+    <Compile Include="APIs\Win32\IniConfig.cs" />
+    <Compile Include="APIs\Win32\NativeMethods\Comctl32.cs" />
+    <Compile Include="APIs\Win32\NativeMethods\Gdi32.cs" />
+    <Compile Include="APIs\Win32\NativeMethods\User32.cs" />
+    <Compile Include="APIs\Win32\Structs\APIsStructs.cs" />
+    <Compile Include="APIs\Win32\Win32.cs" />
     <Compile Include="Controls\DropItem\UIComboBoxItem.cs">
       <SubType>UserControl</SubType>
     </Compile>

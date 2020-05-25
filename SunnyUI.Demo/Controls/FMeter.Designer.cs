@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FMeter
     {
@@ -30,16 +30,16 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FMeter));
-            this.uiAnalogMeter1 = new Sunny.UI.UIAnalogMeter();
-            this.uiLine9 = new Sunny.UI.UILine();
-            this.uiLine7 = new Sunny.UI.UILine();
-            this.uiLine6 = new Sunny.UI.UILine();
-            this.uiLine1 = new Sunny.UI.UILine();
-            this.uiLedStopwatch1 = new Sunny.UI.UILedStopwatch();
-            this.uiLedDisplay1 = new Sunny.UI.UILedDisplay();
+            this.uiAnalogMeter1 = new SunnyUI.UIAnalogMeter();
+            this.uiLine9 = new SunnyUI.UILine();
+            this.uiLine7 = new SunnyUI.UILine();
+            this.uiLine6 = new SunnyUI.UILine();
+            this.uiLine1 = new SunnyUI.UILine();
+            this.uiLedStopwatch1 = new SunnyUI.UILedStopwatch();
+            this.uiLedDisplay1 = new SunnyUI.UILedDisplay();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.uiRoundMeter2 = new Sunny.UI.UIRoundMeter();
-            this.uiRoundMeter1 = new Sunny.UI.UIRoundMeter();
+            this.uiRoundMeter2 = new SunnyUI.UIRoundMeter();
+            this.uiRoundMeter1 = new SunnyUI.UIRoundMeter();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -145,7 +145,7 @@
             this.uiRoundMeter2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.uiRoundMeter2.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.uiRoundMeter2.Location = new System.Drawing.Point(186, 141);
-            this.uiRoundMeter2.MeterType = Sunny.UI.UIRoundMeter.TMeterType.Wind;
+            this.uiRoundMeter2.MeterType = SunnyUI.UIRoundMeter.TMeterType.Wind;
             this.uiRoundMeter2.Name = "uiRoundMeter2";
             this.uiRoundMeter2.Size = new System.Drawing.Size(140, 140);
             this.uiRoundMeter2.TabIndex = 49;

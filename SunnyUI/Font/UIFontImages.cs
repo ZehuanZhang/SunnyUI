@@ -27,7 +27,7 @@ using System.Drawing.Design;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 字体图标编辑器

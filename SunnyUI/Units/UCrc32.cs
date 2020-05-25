@@ -22,7 +22,7 @@
 using System.Collections;
 using System.Text;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// CRC32校验类

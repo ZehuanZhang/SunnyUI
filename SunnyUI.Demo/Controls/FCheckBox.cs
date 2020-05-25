@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using System.Windows.Forms;
 
-namespace Sunny.UI.Demo
+namespace SunnyUI.Demo
 {
     public partial class FCheckBox : UITitlePage
     {

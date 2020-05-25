@@ -31,7 +31,7 @@ using System.Security;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 轻便消息窗

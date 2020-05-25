@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FNavigation
     {
@@ -114,11 +114,11 @@
             System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("节点11");
             System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("节点12");
             System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("节点13");
-            this.uiNavBar1 = new Sunny.UI.UINavBar();
-            this.uiLine1 = new Sunny.UI.UILine();
-            this.uiNavMenu1 = new Sunny.UI.UINavMenu();
-            this.uiNavMenu2 = new Sunny.UI.UINavMenu();
-            this.uiLine2 = new Sunny.UI.UILine();
+            this.uiNavBar1 = new SunnyUI.UINavBar();
+            this.uiLine1 = new SunnyUI.UILine();
+            this.uiNavMenu1 = new SunnyUI.UINavMenu();
+            this.uiNavMenu2 = new SunnyUI.UINavMenu();
+            this.uiLine2 = new SunnyUI.UILine();
             this.PagePanel.SuspendLayout();
             this.uiNavBar1.SuspendLayout();
             this.SuspendLayout();
@@ -190,7 +190,7 @@
             this.uiLine1.MinimumSize = new System.Drawing.Size(16, 16);
             this.uiLine1.Name = "uiLine1";
             this.uiLine1.Size = new System.Drawing.Size(670, 20);
-            this.uiLine1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiLine1.Style = SunnyUI.UIStyle.Custom;
             this.uiLine1.StyleCustomMode = true;
             this.uiLine1.TabIndex = 20;
             this.uiLine1.Text = "UINavBar";
@@ -276,7 +276,7 @@
             this.uiNavMenu2.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
             this.uiNavMenu2.ItemHeight = 50;
             this.uiNavMenu2.Location = new System.Drawing.Point(299, 157);
-            this.uiNavMenu2.MenuStyle = Sunny.UI.UIMenuStyle.White;
+            this.uiNavMenu2.MenuStyle = SunnyUI.UIMenuStyle.White;
             this.uiNavMenu2.Name = "uiNavMenu2";
             treeNode1.Name = "节点14";
             treeNode1.Text = "节点14";

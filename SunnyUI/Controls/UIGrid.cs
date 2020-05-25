@@ -32,7 +32,7 @@ using System.Windows.Forms;
 #pragma warning disable 1591
 // ReSharper disable All
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     [DefaultEvent("CellValueChanged")]
     [DefaultProperty("Columns")]
@@ -860,11 +860,11 @@ namespace Sunny.UI
 
         private void InitializeComponent()
         {
-            this.ScrollBar = new Sunny.UI.UIScrollBar();
-            this.RowsLayout = new Sunny.UI.UIRowsLayout();
-            this.Footer = new Sunny.UI.UIPanel();
-            this.Header = new Sunny.UI.UIPanel();
-            this.Cover = new Sunny.UI.UIPanel();
+            this.ScrollBar = new SunnyUI.UIScrollBar();
+            this.RowsLayout = new SunnyUI.UIRowsLayout();
+            this.Footer = new SunnyUI.UIPanel();
+            this.Header = new SunnyUI.UIPanel();
+            this.Cover = new SunnyUI.UIPanel();
             this.SuspendLayout();
             //
             // ScrollBar
@@ -877,7 +877,7 @@ namespace Sunny.UI
             this.ScrollBar.Location = new System.Drawing.Point(780, 37);
             this.ScrollBar.Name = "ScrollBar";
             this.ScrollBar.Size = new System.Drawing.Size(19, 406);
-            this.ScrollBar.Style = Sunny.UI.UIStyle.Custom;
+            this.ScrollBar.Style = SunnyUI.UIStyle.Custom;
             this.ScrollBar.StyleCustomMode = true;
             this.ScrollBar.TabIndex = 18;
             this.ScrollBar.ValueChanged += new System.EventHandler(this.ScrollBar_ValueChanged);
@@ -893,10 +893,10 @@ namespace Sunny.UI
             this.RowsLayout.Location = new System.Drawing.Point(0, 35);
             this.RowsLayout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.RowsLayout.Name = "RowsLayout";
-            this.RowsLayout.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.RowsLayout.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.RowsLayout.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
             this.RowsLayout.Size = new System.Drawing.Size(800, 410);
-            this.RowsLayout.Style = Sunny.UI.UIStyle.Custom;
+            this.RowsLayout.Style = SunnyUI.UIStyle.Custom;
             this.RowsLayout.StyleCustomMode = true;
             this.RowsLayout.TabIndex = 13;
             this.RowsLayout.Text = null;
@@ -912,12 +912,12 @@ namespace Sunny.UI
             this.Footer.Location = new System.Drawing.Point(0, 445);
             this.Footer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Footer.Name = "Footer";
-            this.Footer.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.Footer.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.Footer.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
             this.Footer.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right)
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.Footer.Size = new System.Drawing.Size(800, 35);
-            this.Footer.Style = Sunny.UI.UIStyle.Custom;
+            this.Footer.Style = SunnyUI.UIStyle.Custom;
             this.Footer.StyleCustomMode = true;
             this.Footer.TabIndex = 11;
             this.Footer.Text = null;
@@ -934,12 +934,12 @@ namespace Sunny.UI
             this.Header.Location = new System.Drawing.Point(0, 0);
             this.Header.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Header.Name = "Header";
-            this.Header.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.Header.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.Header.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
             this.Header.RectSides = ((System.Windows.Forms.ToolStripStatusLabelBorderSides)(((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left | System.Windows.Forms.ToolStripStatusLabelBorderSides.Top)
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right)));
             this.Header.Size = new System.Drawing.Size(800, 35);
-            this.Header.Style = Sunny.UI.UIStyle.Custom;
+            this.Header.Style = SunnyUI.UIStyle.Custom;
             this.Header.StyleCustomMode = true;
             this.Header.TabIndex = 12;
             this.Header.Text = null;
@@ -953,9 +953,9 @@ namespace Sunny.UI
             this.Cover.Location = new System.Drawing.Point(0, 35);
             this.Cover.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Cover.Name = "Cover";
-            this.Cover.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.Cover.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.Cover.Size = new System.Drawing.Size(800, 410);
-            this.Cover.Style = Sunny.UI.UIStyle.Custom;
+            this.Cover.Style = SunnyUI.UIStyle.Custom;
             this.Cover.StyleCustomMode = true;
             this.Cover.TabIndex = 20;
             this.Cover.Text = "[ 无数据 ]";
@@ -968,7 +968,7 @@ namespace Sunny.UI
             this.Controls.Add(this.Footer);
             this.Controls.Add(this.Header);
             this.Name = "UIGrid";
-            this.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.Size = new System.Drawing.Size(800, 480);
             this.ResumeLayout(false);
         }

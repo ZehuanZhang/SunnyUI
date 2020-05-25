@@ -31,7 +31,7 @@ using System.Windows.Forms;
 
 // ReSharper disable All
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     [ToolboxItem(false)]
     public sealed partial class UIGridRow : UIPanel
@@ -585,7 +585,7 @@ namespace Sunny.UI
             // UIGridRow
             //
             this.Name = "UIGridRow";
-            this.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
             this.Size = new System.Drawing.Size(543, 32);
             this.Click += new System.EventHandler(this.Label_Click);

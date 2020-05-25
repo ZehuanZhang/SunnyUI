@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     [ToolboxItem(false)]
     public sealed class UIEdit : TextBox

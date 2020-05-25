@@ -28,7 +28,7 @@ using System.Windows.Forms;
 // ReSharper disable UnusedMember.Local
 #pragma warning disable 1591
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// Abstract base class for Mouse and Keyboard hooks

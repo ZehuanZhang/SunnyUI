@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FTreeView
     {
@@ -60,8 +60,8 @@
             treeNode17,
             treeNode18,
             treeNode19});
-            this.uiTreeView1 = new Sunny.UI.UITreeView();
-            this.uiLine1 = new Sunny.UI.UILine();
+            this.uiTreeView1 = new SunnyUI.UITreeView();
+            this.uiLine1 = new SunnyUI.UILine();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 

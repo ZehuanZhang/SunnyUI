@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo.Forms
+﻿namespace SunnyUI.Demo.Forms
 {
     partial class FEdit
     {
@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.edtName = new Sunny.UI.UITextBox();
-            this.uiLabel2 = new Sunny.UI.UILabel();
-            this.uiLabel3 = new Sunny.UI.UILabel();
-            this.rbMale = new Sunny.UI.UIRadioButton();
-            this.rbFemale = new Sunny.UI.UIRadioButton();
-            this.edtAge = new Sunny.UI.UITextBox();
-            this.uiLabel4 = new Sunny.UI.UILabel();
-            this.cbDepartment = new Sunny.UI.UIComboBox();
-            this.uiLabel5 = new Sunny.UI.UILabel();
-            this.uiLabel6 = new Sunny.UI.UILabel();
-            this.edtDate = new Sunny.UI.UIDatePicker();
-            this.edtAddress = new Sunny.UI.UITextBox();
-            this.uiLabel1 = new Sunny.UI.UILabel();
+            this.edtName = new SunnyUI.UITextBox();
+            this.uiLabel2 = new SunnyUI.UILabel();
+            this.uiLabel3 = new SunnyUI.UILabel();
+            this.rbMale = new SunnyUI.UIRadioButton();
+            this.rbFemale = new SunnyUI.UIRadioButton();
+            this.edtAge = new SunnyUI.UITextBox();
+            this.uiLabel4 = new SunnyUI.UILabel();
+            this.cbDepartment = new SunnyUI.UIComboBox();
+            this.uiLabel5 = new SunnyUI.UILabel();
+            this.uiLabel6 = new SunnyUI.UILabel();
+            this.edtDate = new SunnyUI.UIDatePicker();
+            this.edtAddress = new SunnyUI.UITextBox();
+            this.uiLabel1 = new SunnyUI.UILabel();
             this.SuspendLayout();
             // 
             // pnlBtm
@@ -118,7 +118,7 @@
             this.edtAge.Size = new System.Drawing.Size(170, 29);
             this.edtAge.TabIndex = 3;
             this.edtAge.Text = "0";
-            this.edtAge.Type = Sunny.UI.UITextBox.UIEditType.Integer;
+            this.edtAge.Type = SunnyUI.UITextBox.UIEditType.Integer;
             // 
             // uiLabel4
             // 
@@ -133,7 +133,7 @@
             // 
             // cbDepartment
             // 
-            this.cbDepartment.DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
+            this.cbDepartment.DropDownStyle = SunnyUI.UIDropDownStyle.DropDownList;
             this.cbDepartment.FillColor = System.Drawing.Color.White;
             this.cbDepartment.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.cbDepartment.Items.AddRange(new object[] {
@@ -178,7 +178,7 @@
             // 
             // edtDate
             // 
-            this.edtDate.DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
+            this.edtDate.DropDownStyle = SunnyUI.UIDropDownStyle.DropDownList;
             this.edtDate.FillColor = System.Drawing.Color.White;
             this.edtDate.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.edtDate.Location = new System.Drawing.Point(150, 215);

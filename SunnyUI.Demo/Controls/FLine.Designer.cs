@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FLine
     {
@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiLine1 = new Sunny.UI.UILine();
-            this.uiLine2 = new Sunny.UI.UILine();
-            this.uiLine3 = new Sunny.UI.UILine();
-            this.uiLine4 = new Sunny.UI.UILine();
-            this.uiLine5 = new Sunny.UI.UILine();
-            this.uiLine6 = new Sunny.UI.UILine();
-            this.uiLine7 = new Sunny.UI.UILine();
-            this.uiLine8 = new Sunny.UI.UILine();
-            this.uiLine9 = new Sunny.UI.UILine();
-            this.uiLine10 = new Sunny.UI.UILine();
-            this.uiLine11 = new Sunny.UI.UILine();
+            this.uiLine1 = new SunnyUI.UILine();
+            this.uiLine2 = new SunnyUI.UILine();
+            this.uiLine3 = new SunnyUI.UILine();
+            this.uiLine4 = new SunnyUI.UILine();
+            this.uiLine5 = new SunnyUI.UILine();
+            this.uiLine6 = new SunnyUI.UILine();
+            this.uiLine7 = new SunnyUI.UILine();
+            this.uiLine8 = new SunnyUI.UILine();
+            this.uiLine9 = new SunnyUI.UILine();
+            this.uiLine10 = new SunnyUI.UILine();
+            this.uiLine11 = new SunnyUI.UILine();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -163,7 +163,7 @@
             // 
             // uiLine10
             // 
-            this.uiLine10.Direction = Sunny.UI.UILine.LineDirection.Vertical;
+            this.uiLine10.Direction = SunnyUI.UILine.LineDirection.Vertical;
             this.uiLine10.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.uiLine10.Location = new System.Drawing.Point(521, 32);
             this.uiLine10.MinimumSize = new System.Drawing.Size(16, 16);
@@ -175,7 +175,7 @@
             // 
             // uiLine11
             // 
-            this.uiLine11.Direction = Sunny.UI.UILine.LineDirection.Vertical;
+            this.uiLine11.Direction = SunnyUI.UILine.LineDirection.Vertical;
             this.uiLine11.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.uiLine11.LineSize = 2;
             this.uiLine11.Location = new System.Drawing.Point(578, 32);

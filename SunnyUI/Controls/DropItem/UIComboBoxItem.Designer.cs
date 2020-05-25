@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UIComboBoxItem
     {
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox = new Sunny.UI.UIListBox();
+            this.listBox = new SunnyUI.UIListBox();
             this.SuspendLayout();
             // 
             // listBox
@@ -46,7 +46,7 @@
             this.listBox.Radius = 0;
             this.listBox.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
             this.listBox.Size = new System.Drawing.Size(184, 210);
-            this.listBox.Style = Sunny.UI.UIStyle.Custom;
+            this.listBox.Style = SunnyUI.UIStyle.Custom;
             this.listBox.TabIndex = 3;
             this.listBox.Text = null;
             this.listBox.ItemClick += new System.EventHandler(this.ListBox_Click);

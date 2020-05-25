@@ -29,7 +29,7 @@ using System.Windows.Forms;
 // ReSharper disable All
 #pragma warning disable 1591
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     [Designer("System.Windows.Forms.Design.ParentControlDesigner, System.Design", typeof(System.ComponentModel.Design.IDesigner))]
     [DefaultEvent("Click"), DefaultProperty("Text")]

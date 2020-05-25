@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UIStatusForm
     {
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelDescription = new Sunny.UI.UILabel();
-            this.processBar = new Sunny.UI.UIProcessBar();
+            this.labelDescription = new SunnyUI.UILabel();
+            this.processBar = new SunnyUI.UIProcessBar();
             this.SuspendLayout();
             // 
             // labelDescription
@@ -50,11 +50,11 @@
             this.processBar.Location = new System.Drawing.Point(32, 91);
             this.processBar.MinimumSize = new System.Drawing.Size(70, 23);
             this.processBar.Name = "processBar";
-            this.processBar.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.processBar.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.processBar.Size = new System.Drawing.Size(409, 29);
             this.processBar.TabIndex = 3;
             this.processBar.Text = "0.0%";
-            this.processBar.ValueChanged += new Sunny.UI.UIProcessBar.OnValueChanged(this.processBar_ValueChanged);
+            this.processBar.ValueChanged += new SunnyUI.UIProcessBar.OnValueChanged(this.processBar_ValueChanged);
             // 
             // UIStatusForm
             // 

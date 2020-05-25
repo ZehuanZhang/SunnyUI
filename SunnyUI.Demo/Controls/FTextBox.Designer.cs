@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FTextBox
     {
@@ -28,22 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiIntegerUpDown1 = new Sunny.UI.UIIntegerUpDown();
-            this.uiTextBox1 = new Sunny.UI.UITextBox();
-            this.uiLabel1 = new Sunny.UI.UILabel();
-            this.uiLabel2 = new Sunny.UI.UILabel();
-            this.uiTextBox2 = new Sunny.UI.UITextBox();
-            this.uiLabel3 = new Sunny.UI.UILabel();
-            this.uiTextBox3 = new Sunny.UI.UITextBox();
-            this.uiComboBox1 = new Sunny.UI.UIComboBox();
-            this.uiComboBox2 = new Sunny.UI.UIComboBox();
-            this._uiDatePicker1 = new Sunny.UI.UIDatePicker();
-            this.uiDoubleUpDown1 = new Sunny.UI.UIDoubleUpDown();
-            this.uiLine1 = new Sunny.UI.UILine();
-            this.uiLine2 = new Sunny.UI.UILine();
-            this.uiLine3 = new Sunny.UI.UILine();
-            this.uiLine4 = new Sunny.UI.UILine();
-            this.uiLine5 = new Sunny.UI.UILine();
+            this.uiIntegerUpDown1 = new SunnyUI.UIIntegerUpDown();
+            this.uiTextBox1 = new SunnyUI.UITextBox();
+            this.uiLabel1 = new SunnyUI.UILabel();
+            this.uiLabel2 = new SunnyUI.UILabel();
+            this.uiTextBox2 = new SunnyUI.UITextBox();
+            this.uiLabel3 = new SunnyUI.UILabel();
+            this.uiTextBox3 = new SunnyUI.UITextBox();
+            this.uiComboBox1 = new SunnyUI.UIComboBox();
+            this.uiComboBox2 = new SunnyUI.UIComboBox();
+            this._uiDatePicker1 = new SunnyUI.UIDatePicker();
+            this.uiDoubleUpDown1 = new SunnyUI.UIDoubleUpDown();
+            this.uiLine1 = new SunnyUI.UILine();
+            this.uiLine2 = new SunnyUI.UILine();
+            this.uiLine3 = new SunnyUI.UILine();
+            this.uiLine4 = new SunnyUI.UILine();
+            this.uiLine5 = new SunnyUI.UILine();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -129,7 +129,7 @@
             this.uiTextBox2.Size = new System.Drawing.Size(221, 29);
             this.uiTextBox2.TabIndex = 5;
             this.uiTextBox2.Text = "0";
-            this.uiTextBox2.Type = Sunny.UI.UITextBox.UIEditType.Integer;
+            this.uiTextBox2.Type = SunnyUI.UITextBox.UIEditType.Integer;
             // 
             // uiLabel3
             // 
@@ -154,7 +154,7 @@
             this.uiTextBox3.Size = new System.Drawing.Size(221, 29);
             this.uiTextBox3.TabIndex = 7;
             this.uiTextBox3.Text = "0.00";
-            this.uiTextBox3.Type = Sunny.UI.UITextBox.UIEditType.Double;
+            this.uiTextBox3.Type = SunnyUI.UITextBox.UIEditType.Double;
             // 
             // uiComboBox1
             // 
@@ -178,7 +178,7 @@
             // 
             // uiComboBox2
             // 
-            this.uiComboBox2.DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
+            this.uiComboBox2.DropDownStyle = SunnyUI.UIDropDownStyle.DropDownList;
             this.uiComboBox2.FillColor = System.Drawing.Color.White;
             this.uiComboBox2.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.uiComboBox2.Items.AddRange(new object[] {
@@ -199,7 +199,7 @@
             // 
             // _uiDatePicker1
             // 
-            this._uiDatePicker1.DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
+            this._uiDatePicker1.DropDownStyle = SunnyUI.UIDropDownStyle.DropDownList;
             this._uiDatePicker1.FillColor = System.Drawing.Color.White;
             this._uiDatePicker1.Font = new System.Drawing.Font("微软雅黑", 12F);
             this._uiDatePicker1.Location = new System.Drawing.Point(30, 294);

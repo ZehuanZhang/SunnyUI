@@ -19,6 +19,7 @@
  * 2020-01-01: V2.2.0 增加文件说明
 ******************************************************************************/
 
+using SunnyUI.WindowUI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,7 +27,7 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     public partial class UIForm : Form, IStyleInterface
     {
@@ -751,7 +752,7 @@ namespace Sunny.UI
         {
             switch (m.Msg)
             {
-                case 0x84:
+                case (int)WindowMessages.WM_NCHITTEST:
                     {  // Trap WM_NCHITTEST
 
                         base.WndProc(ref m);

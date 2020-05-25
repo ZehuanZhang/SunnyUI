@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sunny.UI.Demo.Forms
+namespace SunnyUI.Demo.Forms
 {
     public partial class FEditor : UITitlePage
     {

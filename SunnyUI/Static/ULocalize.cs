@@ -19,7 +19,7 @@
  * 2020-04-19: V2.2 增加文件说明
 ******************************************************************************/
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     public static class UILocalize
     {

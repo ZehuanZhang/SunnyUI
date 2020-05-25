@@ -22,7 +22,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     internal class PrivilegeAPI
     {

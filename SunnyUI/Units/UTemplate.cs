@@ -22,7 +22,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 模版引擎

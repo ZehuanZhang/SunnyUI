@@ -22,7 +22,7 @@
 using System.ComponentModel;
 using System.Drawing;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 下拉框弹出窗体基类

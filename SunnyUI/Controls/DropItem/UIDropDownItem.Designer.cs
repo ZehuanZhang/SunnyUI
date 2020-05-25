@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UIDropDownItem
     {
@@ -33,7 +33,7 @@
             // UIDropDownItem
             // 
             this.Name = "UIDropDownItem";
-            this.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.ResumeLayout(false);
 
         }

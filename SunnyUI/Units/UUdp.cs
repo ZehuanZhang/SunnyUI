@@ -25,7 +25,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// UDP 数据接收类

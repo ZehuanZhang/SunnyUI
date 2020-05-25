@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI
+﻿namespace SunnyUI
 {
     partial class UINotifier
     {
@@ -40,7 +40,7 @@
             this.closeAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.noteTitle = new System.Windows.Forms.Label();
             this.idLabel = new System.Windows.Forms.Label();
-            this.icon = new Sunny.UI.UISymbolLabel();
+            this.icon = new SunnyUI.UISymbolLabel();
             ((System.ComponentModel.ISupportInitialize)(this.buttonClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonMenu)).BeginInit();
             this.menu.SuspendLayout();
@@ -49,7 +49,7 @@
             // noteContent
             // 
             this.noteContent.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.noteContent.Image = global::Sunny.UI.Properties.Resources.notifier;
+            this.noteContent.Image = global::SunnyUI.Properties.Resources.notifier;
             this.noteContent.Location = new System.Drawing.Point(43, 30);
             this.noteContent.Name = "noteContent";
             this.noteContent.Size = new System.Drawing.Size(270, 73);
@@ -61,7 +61,7 @@
             // 
             this.noteDate.AutoSize = true;
             this.noteDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.noteDate.Image = global::Sunny.UI.Properties.Resources.notifier;
+            this.noteDate.Image = global::SunnyUI.Properties.Resources.notifier;
             this.noteDate.Location = new System.Drawing.Point(11, 103);
             this.noteDate.Name = "noteDate";
             this.noteDate.Size = new System.Drawing.Size(13, 9);
@@ -86,7 +86,7 @@
             // buttonMenu
             // 
             this.buttonMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(140)))), ((int)(((byte)(230)))));
-            this.buttonMenu.BackgroundImage = global::Sunny.UI.Properties.Resources.menu;
+            this.buttonMenu.BackgroundImage = global::SunnyUI.Properties.Resources.menu;
             this.buttonMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.buttonMenu.ContextMenuStrip = this.menu;
             this.buttonMenu.Location = new System.Drawing.Point(275, 2);
@@ -127,7 +127,7 @@
             // 
             this.idLabel.AutoSize = true;
             this.idLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.idLabel.Image = global::Sunny.UI.Properties.Resources.notifier;
+            this.idLabel.Image = global::SunnyUI.Properties.Resources.notifier;
             this.idLabel.Location = new System.Drawing.Point(296, 103);
             this.idLabel.Name = "idLabel";
             this.idLabel.Size = new System.Drawing.Size(21, 9);
@@ -143,7 +143,7 @@
             this.icon.Name = "icon";
             this.icon.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
             this.icon.Size = new System.Drawing.Size(32, 30);
-            this.icon.Style = Sunny.UI.UIStyle.Custom;
+            this.icon.Style = SunnyUI.UIStyle.Custom;
             this.icon.StyleCustomMode = true;
             this.icon.Symbol = 61528;
             this.icon.SymbolColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(140)))), ((int)(((byte)(230)))));
@@ -155,7 +155,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::Sunny.UI.Properties.Resources.notifier;
+            this.BackgroundImage = global::SunnyUI.Properties.Resources.notifier;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(324, 117);
             this.Controls.Add(this.icon);

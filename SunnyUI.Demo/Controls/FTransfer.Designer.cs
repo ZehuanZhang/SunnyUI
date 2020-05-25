@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FTransfer
     {
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiTransfer1 = new Sunny.UI.UITransfer();
-            this.uiLine1 = new Sunny.UI.UILine();
+            this.uiTransfer1 = new SunnyUI.UITransfer();
+            this.uiLine1 = new SunnyUI.UILine();
             this.PagePanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,7 +63,7 @@
             this.uiTransfer1.Margin = new System.Windows.Forms.Padding(7, 9, 7, 9);
             this.uiTransfer1.Name = "uiTransfer1";
             this.uiTransfer1.Padding = new System.Windows.Forms.Padding(1);
-            this.uiTransfer1.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiTransfer1.RadiusSides = SunnyUI.UICornerRadiusSides.None;
             this.uiTransfer1.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
             this.uiTransfer1.Size = new System.Drawing.Size(427, 370);
             this.uiTransfer1.TabIndex = 3;

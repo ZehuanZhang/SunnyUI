@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FMain
     {
@@ -33,9 +33,9 @@
             System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("窗体");
             System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("主题");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FMain));
-            this.uiLogo1 = new Sunny.UI.UILogo();
-            this.uiAvatar = new Sunny.UI.UIAvatar();
-            this.StyleManager = new Sunny.UI.UIStyleManager(this.components);
+            this.uiLogo1 = new SunnyUI.UILogo();
+            this.uiAvatar = new SunnyUI.UIAvatar();
+            this.StyleManager = new SunnyUI.UIStyleManager(this.components);
             this.Header.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,7 +63,7 @@
             treeNode3});
             this.Header.SelectedIndex = 0;
             this.Header.Size = new System.Drawing.Size(1022, 110);
-            this.Header.MenuItemClick += new Sunny.UI.UINavBar.OnMenuItemClick(this.Header_MenuItemClick);
+            this.Header.MenuItemClick += new SunnyUI.UINavBar.OnMenuItemClick(this.Header_MenuItemClick);
             // 
             // Main
             // 
@@ -78,7 +78,7 @@
             this.uiLogo1.MinimumSize = new System.Drawing.Size(300, 80);
             this.uiLogo1.Name = "uiLogo1";
             this.uiLogo1.Size = new System.Drawing.Size(300, 80);
-            this.uiLogo1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiLogo1.Style = SunnyUI.UIStyle.Custom;
             this.uiLogo1.TabIndex = 3;
             this.uiLogo1.Text = "uiLogo1";
             // 

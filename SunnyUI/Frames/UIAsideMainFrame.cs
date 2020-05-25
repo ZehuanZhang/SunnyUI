@@ -19,7 +19,7 @@
  * 2020-05-05: V2.2.5 页面框架(Aside-Main)
 ******************************************************************************/
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     public partial class UIAsideMainFrame : UIMainFrame
     {

@@ -26,7 +26,7 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Net;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     public enum UIShape
     {

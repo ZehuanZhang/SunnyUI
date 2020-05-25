@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FHeaderAsideMain
     {
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiLogo1 = new Sunny.UI.UILogo();
+            this.uiLogo1 = new SunnyUI.UILogo();
             this.Header.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -36,18 +36,18 @@
             // 
             this.Aside.LineColor = System.Drawing.Color.Black;
             this.Aside.Size = new System.Drawing.Size(250, 575);
-            this.Aside.Style = Sunny.UI.UIStyle.Blue;
+            this.Aside.Style = SunnyUI.UIStyle.Blue;
             // 
             // Header
             // 
             this.Header.Controls.Add(this.uiLogo1);
             this.Header.Size = new System.Drawing.Size(1024, 110);
-            this.Header.Style = Sunny.UI.UIStyle.Blue;
+            this.Header.Style = SunnyUI.UIStyle.Blue;
             // 
             // Main
             // 
             this.Main.Size = new System.Drawing.Size(774, 575);
-            this.Main.Style = Sunny.UI.UIStyle.Blue;
+            this.Main.Style = SunnyUI.UIStyle.Blue;
             // 
             // uiLogo1
             // 
@@ -57,7 +57,7 @@
             this.uiLogo1.MinimumSize = new System.Drawing.Size(300, 80);
             this.uiLogo1.Name = "uiLogo1";
             this.uiLogo1.Size = new System.Drawing.Size(300, 80);
-            this.uiLogo1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiLogo1.Style = SunnyUI.UIStyle.Custom;
             this.uiLogo1.TabIndex = 1;
             this.uiLogo1.Text = "uiLogo1";
             // 
@@ -67,7 +67,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1024, 720);
             this.Name = "FHeaderAsideMain";
-            this.Style = Sunny.UI.UIStyle.Blue;
+            this.Style = SunnyUI.UIStyle.Blue;
             this.Text = "FHeaderAsideMain";
             this.Header.ResumeLayout(false);
             this.ResumeLayout(false);

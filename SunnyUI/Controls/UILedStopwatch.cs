@@ -22,7 +22,7 @@
 using System;
 using System.ComponentModel;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// LED计时器

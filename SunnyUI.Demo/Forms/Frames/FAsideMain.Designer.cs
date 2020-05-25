@@ -1,4 +1,4 @@
-﻿namespace Sunny.UI.Demo
+﻿namespace SunnyUI.Demo
 {
     partial class FAsideMain
     {
@@ -34,12 +34,12 @@
             // 
             this.Aside.LineColor = System.Drawing.Color.Black;
             this.Aside.Size = new System.Drawing.Size(250, 685);
-            this.Aside.Style = Sunny.UI.UIStyle.Blue;
+            this.Aside.Style = SunnyUI.UIStyle.Blue;
             // 
             // Main
             // 
             this.Main.Size = new System.Drawing.Size(774, 685);
-            this.Main.Style = Sunny.UI.UIStyle.Blue;
+            this.Main.Style = SunnyUI.UIStyle.Blue;
             // 
             // FAsideMain
             // 
@@ -47,7 +47,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1024, 720);
             this.Name = "FAsideMain";
-            this.Style = Sunny.UI.UIStyle.Blue;
+            this.Style = SunnyUI.UIStyle.Blue;
             this.Text = "FAsideMain";
             this.ResumeLayout(false);
 

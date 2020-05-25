@@ -23,7 +23,7 @@ using System;
 using System.ComponentModel;
 using System.Threading;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 多线程运行扩展类

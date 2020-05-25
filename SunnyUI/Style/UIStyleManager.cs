@@ -21,7 +21,7 @@
 
 using System.ComponentModel;
 
-namespace Sunny.UI
+namespace SunnyUI
 {
     /// <summary>
     /// 主题样式管理类
