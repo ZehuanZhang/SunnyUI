@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunnyUI.Demo", "SunnyUI.Dem
 		{AB1CB247-E20B-4CBE-B269-570ADDD96C53} = {AB1CB247-E20B-4CBE-B269-570ADDD96C53}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunnyUI.Develop.Test", "SunnyUI.Develop.Test\SunnyUI.Develop.Test.csproj", "{0108DF6D-6674-4942-BF69-75CC092E6814}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{17F96B36-7CAE-4692-8B1F-B802482ECD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17F96B36-7CAE-4692-8B1F-B802482ECD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17F96B36-7CAE-4692-8B1F-B802482ECD09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0108DF6D-6674-4942-BF69-75CC092E6814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0108DF6D-6674-4942-BF69-75CC092E6814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0108DF6D-6674-4942-BF69-75CC092E6814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0108DF6D-6674-4942-BF69-75CC092E6814}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
