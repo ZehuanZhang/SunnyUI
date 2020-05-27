@@ -156,6 +156,15 @@ namespace SunnyUI.WindowUI
 
     #endregion
 
+    [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]
+    internal class MONITORINFO
+    {
+        public int cbSize = Marshal.SizeOf(typeof(MONITORINFO));
+        public RECT rcMonitor;
+        public RECT rcWork;
+        public int dwFlags;
+    }
+
     #region NCCALCSIZE_PARAMS
 
     /// <summary>
@@ -168,15 +177,15 @@ namespace SunnyUI.WindowUI
         /// <summary>
         /// 窗口在移动或改变大小后的新坐标，也就是说，它是建议的新窗口坐标。
         /// </summary>
-        public RECT rectProposed;
+        public RECT rgrc1;
         /// <summary>
         /// 窗口在移动或改变大小前的坐标。
         /// </summary>
-        public RECT rectBeforeMove;
+        public RECT rgrc2;
         /// <summary>
         /// 窗口移动或改变大小前的客户区坐标。
         /// </summary>
-        public RECT rectClientBeforeMove;
+        public RECT rgrc3;
         /// <summary>
         ///  WINDOWPOS结构。该结构包含了对窗口进行移动或改变大小的操作时指定的大小和位置。
         /// </summary>

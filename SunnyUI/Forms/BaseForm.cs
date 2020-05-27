@@ -15,7 +15,7 @@ namespace SunnyUI.Forms
     [ToolboxBitmap(typeof(Form))]
     public partial class BaseForm : Form
     {
-        private int _CornerRadius = 4;
+        private int _CornerRadius = 5;
         
         public BaseForm()
             : base()
@@ -45,7 +45,7 @@ namespace SunnyUI.Forms
                 return;
             }
 
-            Rectangle rect = new Rectangle(0, 0, this.Width - 2, this.Height - 2);
+            Rectangle rect = new Rectangle(0, 0, this.Width - 4, this.Height - 4);
             RoundRectangle roundRect = new RoundRectangle(rect, new CornerRadius(this.CornerRadius));
             //GDIHelper.DrawPathBorder(g, roundRect);
             using (GraphicsPath path = this._CornerRadius == 0 ? roundRect.ToGraphicsBezierPath() : roundRect.ToGraphicsArcPath())
@@ -85,7 +85,7 @@ namespace SunnyUI.Forms
         }
         protected override void OnPaint(PaintEventArgs e)
         {
-            //base.OnPaint(e);
+            base.OnPaint(e);
             Graphics g = e.Graphics;
             InitializeGraphics(g);
             DrawFormBorder(g);
@@ -95,6 +95,7 @@ namespace SunnyUI.Forms
             ResetRegion();
             base.OnCreateControl();
         }
+        private Rectangle sizeGripRectangle = new Rectangle();
         protected override void OnSizeChanged(EventArgs e)
         {
             base.OnSizeChanged(e);
@@ -136,6 +137,12 @@ namespace SunnyUI.Forms
             }
             base.OnKeyPress(e);
         }
+        protected override void SetClientSizeCore(int x, int y)
+        {
+            _inPosChanged = true;
+            base.SetClientSizeCore(x, y);
+            _inPosChanged = false;
+        }
         protected override void WndProc(ref Message m)
         {
             switch (m.Msg)
@@ -148,6 +155,59 @@ namespace SunnyUI.Forms
                 case (int)WindowMessages.WM_NCACTIVATE:
                     m.Result = new IntPtr(1); break;
                 case (int)WindowMessages.WM_NCCALCSIZE:
+                    {
+                        int wparam = m.WParam.ToInt32();
+                        NCCALCSIZE_PARAMS nccp = (NCCALCSIZE_PARAMS)Marshal.PtrToStructure(m.LParam, typeof(NCCALCSIZE_PARAMS));
+                        if (wparam > 0)
+                        {
+                            // 重新计算客户端、非客户端大小
+                            // 输入为
+                            // rgrc1 - 位移后窗体位置
+                            // rgrc2 - 位移前窗体位置
+                            // rgrc3 - 位移前客户区位置
+                            // 返回为
+                            // rgrc1 - 位移后客户区位置
+                            // rgrc2 - 位移后窗体位置
+                            // rgrc3 - 位移前有效窗体位置（客户区）
+                            RECT BArea = nccp.rgrc1; 
+                            RECT BCArea = nccp.rgrc1; 
+                            RECT ACArea = nccp.rgrc3;
+                            // 若当前处于最大化模式
+                            if (this.WindowState == FormWindowState.Maximized)
+                            {
+                                Rectangle rect = Screen.GetWorkingArea(this);
+                                BArea = new RECT(rect);
+                                BCArea = BArea;
+                            }
+                            else if (WindowState == FormWindowState.Normal)
+                            {
+                                //BArea.right += 1;
+                                //nccp.rgrc1.top += 1;
+                                //nccp.rgrc1.left += 1;
+                                //BCArea.top += 1;
+                                //BCArea.left += 1;
+                                //BCArea.right -= 2;
+                                //BCArea.bottom -= 2;
+                                //BArea.right += 3;
+                                BCArea.left += 1;
+                                BCArea.right -= 1;
+                                BCArea.top += 1;
+                                BCArea.bottom -= 1;
+                            }
+                            nccp.rgrc1 = BCArea;
+                            nccp.rgrc2 = BArea;
+                            nccp.rgrc3 = ACArea;
+
+                            //nccp.rgrc2.top = this.Top;
+                            //nccp.rgrc2.left = this.Left;
+                            //nccp.rgrc2.right = this.Left + this.Width;
+                            //nccp.rgrc2.bottom = this.Top + this.Height;
+                            Marshal.StructureToPtr(nccp, m.LParam, false);
+                            //ResetRegion();
+                            //m.Result = new IntPtr(1);
+                        }
+                    }
+                    Invalidate();
                     break;
                 case (int)WindowMessages.WM_WINDOWPOSCHANGED:
                     _inPosChanged = true;
@@ -170,8 +230,8 @@ namespace SunnyUI.Forms
                 base.Region.Dispose();
             }
             int rgn = Win32.CreateRoundRectRgn(0, 0,
-                this.Size.Width, this.Size.Height,
-                this._CornerRadius, this._CornerRadius);
+                this.Size.Width - 2 * _BorderWidth, this.Size.Height - 2 * _BorderWidth,
+                this._CornerRadius - 2, this._CornerRadius - 2);
             Win32.SetWindowRgn(this.Handle, rgn, true);
         }
 
@@ -266,7 +326,7 @@ namespace SunnyUI.Forms
                 CreateParams cp = base.CreateParams;
                 if (!DesignMode)
                 {
-                    cp.Style |= (int)WindowStyle.WS_OVERLAPPEDWINDOW;
+                    cp.Style |= (int)(WindowStyle.WS_THICKFRAME);
                     if (ControlBox)
                     {
                         cp.Style |= (int)WindowStyle.WS_SYSMENU;
@@ -284,8 +344,12 @@ namespace SunnyUI.Forms
 
                     if (this._inPosChanged)
                     {
-                        cp.Style &= ~((int)WindowStyle.WS_THICKFRAME |
-                            (int)WindowStyle.WS_SYSMENU);
+                        cp.Style &= ~((int)(
+                            WindowStyle.WS_THICKFRAME |
+                            WindowStyle.WS_SYSMENU |
+                            WindowStyle.WS_CAPTION |
+                            WindowStyle.WS_BORDER|
+                            WindowStyle.WS_DLGFRAME));
                         cp.ExStyle &= ~((int)WindowStyleEx.WS_EX_DLGMODALFRAME |
                             (int)WindowStyleEx.WS_EX_WINDOWEDGE);
                     }
@@ -450,7 +514,7 @@ namespace SunnyUI.Forms
             ////调整窗体大小
             if (this._IsResizeable && this._CaptionHeight > 0)
             {
-                int w = 4;
+                int w = 5;
                 if (point.X <= w && point.Y <= w)
                 {
                     m.Result = new IntPtr((int)NCHITTEST.HTTOPLEFT);
@@ -518,10 +582,10 @@ namespace SunnyUI.Forms
                 }
             }
 
-            //if (point.Y <= this._CaptionHeight && this._CaptionHeight > 0)
-            //{
-            //    m.Result = new IntPtr((int)NCHITTEST.HTCAPTION);
-            //}
+            if (this._CaptionHeight > 0)
+            {
+                m.Result = new IntPtr((int)NCHITTEST.HTCAPTION);
+            }
         }
         #endregion
 
@@ -542,8 +606,8 @@ namespace SunnyUI.Forms
             else
             {
                 Rectangle rect = Screen.GetWorkingArea(this);
-                minMaxInfo.maxPosition = new Point(rect.X - this._BorderWidth, rect.Y);
-                minMaxInfo.maxTrackSize = new Size(rect.Width + this._BorderWidth * 2, rect.Height + this._BorderWidth);
+                minMaxInfo.maxPosition = new Point(rect.X, rect.Y);
+                minMaxInfo.maxTrackSize = new Size(rect.Width, rect.Height);
             }
 
             if (MinimumSize != Size.Empty)
@@ -562,5 +626,17 @@ namespace SunnyUI.Forms
         #endregion
 
         #endregion
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // BaseForm
+            // 
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "BaseForm";
+            this.ResumeLayout(false);
+
+        }
     }
 }

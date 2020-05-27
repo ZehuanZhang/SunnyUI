@@ -102,6 +102,21 @@ namespace SunnyUI.WindowUI
         /// </summary>
         [DllImport("gdi32.dll")]
         public static extern int CreateRoundRectRgn(int x1, int y1, int x2, int y2, int x3, int y3);
+        
+        /// <summary>
+        /// 释放对象
+        /// </summary>
+        [DllImport("gdi32.dll")]
+        public static extern bool DeleteObject(int hObject);
+
+        private const int MonitorDefaultToNearest = 0x00000002;
+
+        //all the helpers for dealing with this COM crap
+        [DllImport("user32")]
+        internal static extern bool GetMonitorInfo(IntPtr hMonitor, MONITORINFO lpmi);
+
+        [DllImport("user32")]
+        internal static extern IntPtr MonitorFromWindow(IntPtr handle, int flags);
 
         /// <summary>
         /// 
