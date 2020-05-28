@@ -156,10 +156,9 @@ namespace SunnyUI.Forms
                     m.Result = new IntPtr(1); break;
                 case (int)WindowMessages.WM_NCCALCSIZE:
                     {
-                        int wparam = m.WParam.ToInt32();
-                        NCCALCSIZE_PARAMS nccp = (NCCALCSIZE_PARAMS)Marshal.PtrToStructure(m.LParam, typeof(NCCALCSIZE_PARAMS));
-                        if (wparam > 0)
+                        if (m.WParam != IntPtr.Zero)
                         {
+                            NCCALCSIZE_PARAMS nccp = (NCCALCSIZE_PARAMS)Marshal.PtrToStructure(m.LParam, typeof(NCCALCSIZE_PARAMS));
                             // 重新计算客户端、非客户端大小
                             // 输入为
                             // rgrc1 - 位移后窗体位置
@@ -169,43 +168,45 @@ namespace SunnyUI.Forms
                             // rgrc1 - 位移后客户区位置
                             // rgrc2 - 位移后窗体位置
                             // rgrc3 - 位移前有效窗体位置（客户区）
-                            RECT BArea = nccp.rgrc1; 
-                            RECT BCArea = nccp.rgrc1; 
-                            RECT ACArea = nccp.rgrc3;
+                            
+                            RECT BCArea = nccp.rgrc1;
+                            RECT BArea = nccp.rgrc1;
                             // 若当前处于最大化模式
                             if (this.WindowState == FormWindowState.Maximized)
                             {
                                 Rectangle rect = Screen.GetWorkingArea(this);
-                                BArea = new RECT(rect);
-                                BCArea = BArea;
+                                BCArea.left = rect.X;
+                                BCArea.right = rect.X + rect.Width;
+                                BCArea.top = rect.Y;
+                                BCArea.bottom = rect.Y + rect.Height;
                             }
                             else if (WindowState == FormWindowState.Normal)
                             {
-                                //BArea.right += 1;
-                                //nccp.rgrc1.top += 1;
-                                //nccp.rgrc1.left += 1;
-                                //BCArea.top += 1;
-                                //BCArea.left += 1;
-                                //BCArea.right -= 2;
-                                //BCArea.bottom -= 2;
-                                //BArea.right += 3;
-                                BCArea.left += 1;
-                                BCArea.right -= 1;
-                                BCArea.top += 1;
-                                BCArea.bottom -= 1;
+                                int w = 10;
+                                //BCArea.top += w;
+                                BCArea.left += w;
+                                BCArea.right -= w;
+                                BCArea.bottom -= w;
+                                //BArea.bottom += 20 + w;
                             }
                             nccp.rgrc1 = BCArea;
-                            nccp.rgrc2 = BArea;
-                            nccp.rgrc3 = ACArea;
-
-                            //nccp.rgrc2.top = this.Top;
-                            //nccp.rgrc2.left = this.Left;
-                            //nccp.rgrc2.right = this.Left + this.Width;
-                            //nccp.rgrc2.bottom = this.Top + this.Height;
+                            //nccp.rgrc2 = BArea;
+                            //nccp.rgrc3 = ACArea;
                             Marshal.StructureToPtr(nccp, m.LParam, false);
-                            //ResetRegion();
-                            //m.Result = new IntPtr(1);
+
                         }
+                        else
+                        {
+                            RECT BCArea = (RECT)Marshal.PtrToStructure(m.LParam, typeof(RECT));
+                            int w = 10;
+                            //BCArea.top += w;
+                            BCArea.left += w;
+                            BCArea.right -= w;
+                            BCArea.bottom -= w;
+                            Marshal.StructureToPtr(BCArea, m.LParam, false);
+                        }
+                        
+                        m.Result = IntPtr.Zero;
                     }
                     Invalidate();
                     break;
@@ -225,14 +226,14 @@ namespace SunnyUI.Forms
         }
         private void ResetRegion()
         {
-            if (base.Region != null)
-            {
-                base.Region.Dispose();
-            }
-            int rgn = Win32.CreateRoundRectRgn(0, 0,
-                this.Size.Width - 2 * _BorderWidth, this.Size.Height - 2 * _BorderWidth,
-                this._CornerRadius - 2, this._CornerRadius - 2);
-            Win32.SetWindowRgn(this.Handle, rgn, true);
+            //if (base.Region != null)
+            //{
+            //    base.Region.Dispose();
+            //}
+            //int rgn = Win32.CreateRoundRectRgn(0, 0,
+            //    this.Size.Width - 2 * _BorderWidth, this.Size.Height - 2 * _BorderWidth,
+            //    this._CornerRadius - 2, this._CornerRadius - 2);
+            //Win32.SetWindowRgn(this.Handle, rgn, true);
         }
 
         #region fields
@@ -514,7 +515,7 @@ namespace SunnyUI.Forms
             ////调整窗体大小
             if (this._IsResizeable && this._CaptionHeight > 0)
             {
-                int w = 5;
+                int w = 10;
                 if (point.X <= w && point.Y <= w)
                 {
                     m.Result = new IntPtr((int)NCHITTEST.HTTOPLEFT);
@@ -557,7 +558,7 @@ namespace SunnyUI.Forms
                     return;
                 }
 
-                if (point.X >= (base.Width - w))
+                if (point.X >= (base.Width - 2*w))
                 {
                     m.Result = new IntPtr((int)NCHITTEST.HTRIGHT);
                     return;

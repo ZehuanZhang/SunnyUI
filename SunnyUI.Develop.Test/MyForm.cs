@@ -160,9 +160,9 @@ namespace SunnyUI.Develop.Test
         IntPtr HDC = IntPtr.Zero;
         Graphics gfx = null;
 
-        //Check the WPARAM
-        if(m.WParam == (IntPtr)1)
-        {
+            //Check the WPARAM
+            //if (m.WParam == (IntPtr)1)
+            //{
             //For reasons unknown to me, the update region doesn't contain valid data and calling GetDCEx will do nothing.
             //So I call GetWindowDC and exclude the area using System.Drawing.Graphics instead.
 
@@ -172,13 +172,13 @@ namespace SunnyUI.Develop.Test
 
             //Exclude Client Area
             gfx.ExcludeClip(new Rectangle(4, 30, Width - 8, 34));  //Exclude Client Area (GetWindowDC grabs the WHOLE window's graphics handle)
-        }
-        else
-        {
-            //Graphics Object from HDC
-            HDC = GetDCEx(m.HWnd, m.WParam, DCX_WINDOW | DCX_INTERSECTRGN);
-            gfx = Graphics.FromHdc(HDC);
-        }
+        //}
+        //else
+        //{
+        //    //Graphics Object from HDC
+        //    HDC = GetDCEx(m.HWnd, m.WParam, DCX_WINDOW | DCX_INTERSECTRGN);
+        //    gfx = Graphics.FromHdc(HDC);
+        //}
 
         //Call Paint
         using (PaintEventArgs ncPaintArgs = new PaintEventArgs(gfx, new Rectangle(0, 0, Width, Height)))
@@ -197,6 +197,7 @@ namespace SunnyUI.Develop.Test
     {
         //Clear
         e.Graphics.Clear(Color.Green);
+        this.Invalidate();
     }
 }
 }
